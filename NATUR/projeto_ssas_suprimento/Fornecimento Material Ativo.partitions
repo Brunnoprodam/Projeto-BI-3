@@ -1,0 +1,38 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="af80c632-37b0-4cfd-a52e-bf7b7ea258d6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fornecimento Material Ativo</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fornecimento Material Ativo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="fbc95561-0163-4435-a9d1-79600c3f4c4d">
+          <ID>Fornecimento Material Ativo</ID>
+          <Name>Fornecimento Material Ativo</Name>
+          <CreatedTimestamp>2013-11-28T12:36:07.273333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2013-11-28T12:36:07.273333Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="707c665a-126c-492d-bd5c-522ffebf7e74">
+            <DataSourceID>DCPTLAB02 - DW_Suprimento</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>fornecimento_material_fato</DbTableName>
+          </Source>
+          <AggregationPrefix>FornecimentoMaterial_FornecimentoMaterial_</AggregationPrefix>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ErrorConfiguration dwd:design-time-name="b5eab569-35bf-4d80-ab01-6028a71cab1e">
+            <KeyErrorLimit>-1</KeyErrorLimit>
+          </ErrorConfiguration>
+          <ProactiveCaching dwd:design-time-name="fe9331cc-ad14-4f30-8890-beeda89745d7">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2612e4c0-9688-4f9a-b5b0-250fc8d28b84" />
+          </ProactiveCaching>
+          <EstimatedRows>4027056</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

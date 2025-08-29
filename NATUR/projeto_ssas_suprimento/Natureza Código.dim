@@ -1,0 +1,311 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="debbd115-567d-4f07-b994-f0c9cd708d2e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Natureza Código</ID>
+  <Name>Natureza Código</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.103333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.103333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="4" scrolltop="-64" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="7699" y="10954" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_grupo" left="5420" top="2" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_grupo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_classe" left="20" top="425" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_classe" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_natureza" left="20" top="6820" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_natureza" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="2023" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_grupo_classe]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="17" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="2422" />
+              <point x="4220" y="2422" />
+              <point x="4220" y="2423" />
+              <point x="5420" y="2423" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="4120" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_classe_natureza]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="6820" />
+              <point x="1520" y="4420" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>4</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-64</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>2</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>91</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="154">
+            <Shape Id="generated attribute 5" Expanded="false">
+              <Attributes>
+                <Attribute Id="generated attribute 5" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Classe attribute 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Classe attribute 2" />
+              </Attributes>
+              <Position x="217" y="20" />
+            </Shape>
+            <Shape Id="Natureza attribute 2" Expanded="false">
+              <Attributes>
+                <Attribute Id="Natureza attribute 2" />
+              </Attributes>
+              <Position x="415" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7d5f81b2-7ccf-4b54-9a2b-105125abf990">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7161ba08-0b96-446f-8d54-4bc7c742e0e0">
+    <KeyErrorLimit>-1</KeyErrorLimit>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="40887712-1f4c-48fd-826e-8b8dc78136b6">
+      <ID>Classe attribute 2</ID>
+      <Name>Classe</Name>
+      <EstimatedCount>753</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="215e681c-adc4-40d0-8f1f-b51e41537900">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95dc9ac5-1d39-46c4-a812-467ebf481b21">
+            <TableID>dbo_classe</TableID>
+            <ColumnID>cd_natureza</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="b99b1c08-aa25-44eb-99d6-328dda4baa63">
+          <DataType>WChar</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caff4276-4af2-4fb5-8665-86ef121eac1a">
+            <TableID>dbo_classe</TableID>
+            <ColumnID>dc_classe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cb95e325-9c3e-45a5-9243-c4e9e346c9c8">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0d94e791-c667-43ed-894a-b2c55334a8e9">
+          <TableID>dbo_classe</TableID>
+          <ColumnID>dc_classe_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="905f7fe0-f49e-4529-b456-c413b05ec179">
+          <AttributeID>Natureza attribute 2</AttributeID>
+          <Name>Natureza</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eecbc7e7-16f3-4e54-b2b5-6261e47d04af">
+      <ID>Natureza attribute 2</ID>
+      <Name>Natureza</Name>
+      <EstimatedCount>125</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a12ca6d3-9e2e-4701-93f8-e74b0ac1cf84">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="367ca6e7-bcd6-4679-bafc-32ead6686189">
+            <TableID>dbo_natureza</TableID>
+            <ColumnID>cd_natureza</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e494e975-bbc0-45f2-9f39-cf87c78ca2f4">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="adccdf72-aecc-4b9b-bf55-1fdb8aadbfca">
+          <TableID>dbo_natureza</TableID>
+          <ColumnID>dc_natureza_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa7e82df-fc15-4dde-979f-874a4bc6c6e8">
+      <ID>generated attribute 5</ID>
+      <Name>Grupo</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="562a1fd5-c23a-4480-805d-d37b66220e17">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d633c4f4-4451-4656-84ba-98240bf8b17c">
+            <TableID>dbo_grupo</TableID>
+            <ColumnID>cd_natureza</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="dd3a3bc1-39c9-4d2c-a89d-9d2a77d12695">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03e42617-aaa6-466b-b39a-36c41d78366c">
+            <TableID>dbo_grupo</TableID>
+            <ColumnID>cd_classe</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ef55da4b-b0ef-4564-829d-b7e363769324">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a7c786a-7546-4c8c-b615-f7754941a3f0">
+            <TableID>dbo_grupo</TableID>
+            <ColumnID>cd_grupo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dbea7a64-3975-4dcc-a31c-c1f1a0280cf8">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e7b1eb19-d62a-409b-b55b-11857075e9ab">
+          <TableID>dbo_grupo</TableID>
+          <ColumnID>dc_grupo_extenso</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bf67a73a-b050-44f0-b920-fe2fda3481b8">
+          <AttributeID>Classe attribute 2</AttributeID>
+          <Name>Classe</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todas</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="89f8916c-b875-44b3-a74b-ccd98883168c">
+      <ID>Natureza Código</ID>
+      <Name>Natureza Código</Name>
+      <AllMemberName>Todas</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level dwd:design-time-name="647d1b38-cd5a-4a6d-a8d0-6992f1995168">
+          <ID>Natureza</ID>
+          <Name>Natureza</Name>
+          <SourceAttributeID>Natureza attribute 2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e6c0e7fd-1161-40ee-b0a5-5bd8048cde59">
+          <ID>Classe</ID>
+          <Name>Classe</Name>
+          <SourceAttributeID>Classe attribute 2</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8969030e-5e4b-412a-a534-dc49dc540930">
+          <ID>Grupo</ID>
+          <Name>Grupo</Name>
+          <SourceAttributeID>generated attribute 5</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="fa0b637e-02de-4de0-ae56-3a53082a9411">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="694c51b5-4399-4482-88e7-cdf415ff8ac3" />
+  </ProactiveCaching>
+</Dimension>

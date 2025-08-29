@@ -1,0 +1,232 @@
+  001 SERVICOS DE ESTUDOS, PESQUISAS, PROJETOS E ADAPTACOES, REPAROS E REFORMAS                                               
+  002 SERVICOS ESPECIALIZADOS                                                                                                 
+  003 SERVICOS TERCEIRIZADOS                                                                                                  
+  004 SERVICOS DE INSTALACAO / MONTAGEM                                                                                       
+  005 SERVICOS DE MANUTENCAO / CONSERVACAO DE BENS MOVEIS E IMOVEIS                                                           
+  006 SERVICOS DE TRANSPORTE, MANUSEIO DE MATERIAIS E ACONDICIONAMENTO                                                        
+  007 SERVICOS DE LOCACAO                                                                                                     
+  008 SERVICOS GERAIS                                                                                                         
+  009 SERVICOS PUBLICOS TERCEIRIZADOS                                                                                         
+  020 MATERIAIS BELICOS E MATERIAIS PARA TREINAMENTO                                                                          
+  030 COMPONENTES, PECAS E ACESSORIOS PARA EMBARCACOES E AERONAVES                                                            
+  045 COMPONENTES, PECAS E ACESSORIOS PARA VEICULOS LEVES E PESADOS, TRANSPORTE DE PASSAGEIROS E CARGAS                       
+  051 MATERIAIS SUSTENTAVEIS                                                                                                  
+  055 MATERIAIS DE DISTRIBUICAO GRATUITA                                                                                      
+  060 MAQUINAS E FERRAMENTAS ELETRICAS, COMPONENTES, PECAS E ACESSORIOS                                                       
+  063 MATERIAIS EXCLUSIVOS DE COVISA                                                                                          
+  064 MEDICAMENTOS PARA USO MEDICO, ODONTOLOGICO E VETERINARIO                                                                
+  065 MATERIAIS E COMPONENTES MEDICO-HOSPITALAR, ODONTOLOGICO E VETERINARIO                                                   
+  066 PROGRAMAS DE REPASSES FINANCEIROS VOLTADOS A SAUDE                                                                      
+  070 MATERIAIS E PRODUTOS P/ HIGIENE, LIMPEZA, POLIMENTO E LUBRIFICACAO - PECAS E ACESSORIOS PARA EQUIPAMENTOS DE LIMPEZA    
+  075 COMPONENTES, PECAS E ACESSORIOS PARA MAQUINAS E EQUIPAMENTOS INDUSTRIAIS                                                
+  080 MATERIAIS PARA CULTURA ANIMAL E VEGETAL - PLANTAS E ARVORES                                                             
+  095 CABOS, CORRENTES, CORDAS E ESTICADORES                                                                                  
+  100 COMPONENTES, PECAS E ACESSORIOS PARA EQUIPAMENTOS PARA CONDICIONAMENTO, VENTILACAO E PURIFICACAO DE AR                  
+  105 MATERIAIS E PRODUTOS PARA PROTECAO INDIVIDUAL, SALVAMENTO, SINALIZACAO, CONTROLE E COMBATE A INCENDIO                   
+  110 COMPONENTES, PECAS E ACESSORIOS PARA MOTORES, BOMBAS, COMPRESSORES, CENTRIFUGAS E PULVERIZADORES                        
+  115 COMPONENTES E ACESSORIOS P/ EQUIP.TERMICOS, CENTRAIS DE VAPOR, FORNOS, INCINERADORES E USINAS DE REPROCESSAMENTO DE LIXO
+  120 COMPONENTES, PECAS E ACESSORIOS PARA EQUIPAMENTOS DE REFRIGERACAO, PURIFICACAO E ADUCAO DE AGUA                         
+  125 CANOS, TUBOS, MANGUEIRAS, CONEXOES E ACESSORIOS                                                                         
+  130 FERRAMENTAS MANUAIS                                                                                                     
+  135 PARAFUSOS E ELEMENTOS DE VEDACAO, UNIAO, CONEXAO E FIXACAO                                                              
+  140 ESTRUTURAS E ANDAIMES PRE-FABRICADOS                                                                                    
+  145 MADEIRAS, LAMINADOS, COMPENSADOS E AGLOMERADOS                                                                          
+  150 METAIS, LAMINADOS, PERFILADOS E ARTEFATOS METALICOS                                                                     
+  155 MATERIAIS PARA CONSTRUCAO CIVIL E CONSERVACAO DE VIAS PUBLICAS                                                          
+  160 COMPONENTES, PECAS, ACESSORIOS E SUPRIMENTOS PARA EQUIPAMENTOS DE SOM, IMAGEM E COMUNICACAO EM GERAL                    
+  165 COMPONENTES E MATERIAIS ELETRONICOS, CELULAS E FIBRAS OTICAS                                                            
+  170 COMPONENTES E MATERIAIS P/ GERACAO, TRANSMISSAO, ACUMULACAO, DISTRIB., RETIF. DE ENERGIA ELETRICA E ILUMINACAO EM GERAL 
+  175 ABRASIVOS                                                                                                               
+  185 COMPONENTES, PECAS E ACESSORIOS MEDICO-HOSPITALAR, ODONTOLOGICO E VETERINARIOS                                          
+  190 MATERIAIS E INSTRUMENTOS PARA LABORATORIO, MEDICAO E PRECISAO                                                           
+  195 PRODUTOS QUIMICOS E BIOLOGICOS                                                                                          
+  200 COMPONENTES, MATERIAIS E ACESSORIOS PARA MOBILIARIOS EM GERAL                                                           
+  205 ARTIGOS DOMESTICOS, DECORACAO, GUARNICAO DE AMBIENTES E TECIDOS                                                         
+  210 MATERIAIS E ACESSORIOS PARA REFEITORIO, COPA E COZINHA                                                                  
+  215 COMPONENTES, PECAS E ACESSORIOS P/ MAQUINAS, EQUIPAMENTOS E MATERIAS PARA ESCRITORIO E ESCOLAR                          
+  216 MATERIAIS E ACESSORIOS PARA PESSOAS COM NECESSIDADES ESPECIAIS                                                          
+  220 COMPONENTES, PECAS, SUPRIMENTOS E ACESSORIOS PARA EQUIPAMENTOS DE INFORMATICA EM GERAL                                  
+  225 LIVROS EM GERAL; FITAS DE VIDEO; CD-ROM PUBLICACOES; MAPAS, ATLAS E GUIAS; MATERIAIS PEDAGOGICOS E PARA TREINAMENTO     
+  230 COMPONENTES, MATERIAIS E ACESSORIOS PARA INSTRUMENTOS MUSICAIS                                                          
+  235 MATERIAIS DESPORTIVOS                                                                                                   
+  240 MATERIAIS E COMPONENTES PARA PINTURA E IMPERMEABILIZACAO                                                                
+  245 EMBALAGENS, RECIPIENTES, MATERIAIS PARA ACONDICIONAMENTO E ENCHIMENTO                                                   
+  250 ARTEFATOS DE MADEIRA, METAL E CONCRETO PARA PRACAS, PARQUES E JARDINS                                                   
+  255 VESTUARIO, ARTIGOS PARA TOUCADOR E HIGIENE PESSOAL, MATERIAIS E ACESSORIOS                                              
+  260 GENEROS ALIMENTICIOS E BEBIDAS                                                                                          
+  262 GENEROS ALIMENTICIOS E BEBIDAS - AGRICULTURA FAMILIAR                                                                   
+  265 COMBUSTIVEIS, LUBRIFICANTES, OLEOS, GRAXAS, MINERIOS E AFINS                                                            
+  290 COMPONENTES, PECAS E ACESSORIOS PARA MAQUINAS E EQUIPAMENTOS DE INDUSTRIA GRAFICA E PAPEIS EM GERAL                     
+  300 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  301 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  302 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  303 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  304 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  305 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  306 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  307 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  308 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  309 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  310 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  311 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  312 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  317 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  319 CODIGO INVALIDO - VIDE CODIGO 00.606.000.000.0000-8                                                                     
+  321 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  322 CODIGO INVALIDO - VIDE CODIGO 00.350.000.000.0000-6                                                                     
+  350 PECAS PARA MAQUINAS PESADAS                                                                                             
+  400 CODIGO INVALIDO - VIDE CODIGO 00.670.000.000.0000-0                                                                     
+  500 ASSISTENCIA TECNICA E MANUTENCAO                                                                                        
+  502 EMBARCACOES, AERONAVES E TRENS                                                                                          
+  504 VEICULOS LEVES, UTILITARIOS, PESADOS, ESPECIAIS E OUTROS (FROTA PMSP)                                                   
+  505 SERVICOS TECNICO-ADMINISTRATIVOS                                                                                        
+  506 EQUIPAMENTOS, MAQUINAS E FERRAMENTAS ELETRICAS                                                                          
+  507 EQUIPAMENTOS PARA MOVIMENTACAO E SUSTENTACAO DE CARGAS DE PEQUENO,MEDIO E GRANDE PORTE                                  
+  508 MOTO-BOMBAS EM GERAL, COMPRESSORES, CENTRIFUGAS E MOTORES                                                               
+  510 SERVICOS DE LEVANTAMENTO, ESTUDO, PLANEJAMENTO E PROJETO                                                                
+  512 EQUIPAMENTOS, MAQUINAS E ACESSORIOS PARA TRABALHOS EM TECIDO                                                            
+  514 MAQUINAS E EQUIPAMENTOS PARA LIMPEZA E CONSERVACAO URBANA (VIAS PUBLICAS, PRACAS, PARQUES E JARDINS)                    
+  515 SERVICOS DE MONTAGEM E INSTALACAO                                                                                       
+  516 SEMOVENTES; MAQUINAS E EQUIPAMENTOS PARA TRATO ANIMAL                                                                   
+  517 EQUIPAMENTOS E MATERIAIS PERMANENTES SOCIOAMBIENTAIS                                                                    
+  518 EQUIPAMENTOS PARA PURIFICACAO, AQUECIMENTO, VENTILACAO E CONDICIONAMENTO DE AR                                          
+  520 SERVICOS DE OBRAS E MANUTENCAO DE CONSTRUCAO CIVIL                                                                      
+  522 EQUIPAMENTOS E ARTIGOS PARA ARMARINHO, TOUCADOR E HIGIENE PESSOAL                                                       
+  524 EQUIPAMENTOS PARA CONSTRUCAO, REPARO E MANUTENCAO CIVIL                                                                 
+  525 SERVICOS DE MAO DE OBRA                                                                                                 
+  526 EQUIPAMENTOS PARA AQUECIMENTO, REFRIGERACAO, PURIFICACAO, TRATAMENTO DE AGUA E  ESGOTO                                  
+  528 EQUIPAMENTOS PARA GERACAO, TRANSMISSAO, ACUMULACAO, DISTRIBUICAO E RETIFICACAO  DE ENERGIA ELETRICA                     
+  530 RECONDICIONAMENTO, RECAUCHUTAGEM, RETIFICA E RECUPERACAO EM GERAL                                                       
+  532 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS MEDICO-HOSPITALARES, FISIOTERAPICOS,ODONTOLOGICOS E VETERINARIOS                
+  535 SERVICOS E OBRAS DE CONSTRUCAO CIVIL DE PONTES, VIADUTOS E PAVIMENTOS                                                   
+  536 ESTRUTURAS E ARTEFATOS PARA EVENTOS CULTURAIS, EDUCACIONAIS E RECREATIVOS                                               
+  538 EQUIPAMENTOS PARA REFEITORIO, COPA E COZINHA                                                                            
+  540 SERVICOS DE CONSTRUCAO DE ENGENHARIA ELETRICA, OBRAS DE ELETRIFICACAO E INSTALACOES ELETRICAS                           
+  542 EQUIPAMENTOS PARA COMUNICACAO                                                                                           
+  544 ACERVO PARA BIBLIOTECAS E MUSEUS; MATERIAIS PARA CONSULTA E PESQUISA TECNICO ADMINISTRATIVO                             
+  545 SERVICOS DE GRAFICA, COPIAS, REPRODUCAO, FOTOCINEMATOGRAFIA E VIDEO                                                     
+  546 INSTRUMENTOS MUSICAIS, PARTITURAS E ACESSORIOS                                                                          
+  548 EQUIPAMENTOS PARA DESPORTOS, ERGONOMETRIA E RECREACAO (BRINQUEDOS)                                                      
+  550 SERVICOS DE LOCACAO DE BENS PATRIMONIAIS MOVEIS                                                                         
+  552 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA LABORATORIO                                                                
+  554 MOBILIARIO EM GERAL                                                                                                     
+  555 SERVICOS DE LIMPEZA, CONSERVACAO E REMOCAO                                                                              
+  556 ARTIGOS PARA DECORACAO, DIVISAO E GUARNICAO DE AMBIENTES                                                                
+  558 RECIPIENTES E ACESSORIOS PARA ACONDICIONAMENTO E ARMAZENAMENTO                                                          
+  560 SERVICOS DE TRANSPORTES DE PESSOAS, CARGAS, MUDANCAS E ARMAZENAMENTO                                                    
+  562 OBRAS DE ARTE, OBJETOS DE VALOR HISTORICO E ACESSORIOS                                                                  
+  564 SIMBOLOS: BANDEIRAS E ACESSORIOS, INSIGNIAS E BRASOES                                                                   
+  566 MAQUINAS, EQUIPAMENTOS E ACESSORIOS PARA GRAFICA E REPROGRAFIA                                                          
+  568 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS OPTICOS                                                                         
+  570 MAQUINAS E EQUIPAMENTOS PARA HIGIENE, LIMPEZA E CONSERVACAO EM GERAL                                                    
+  571 EQUIPAMENTOS E ACESSORIOS PARA CONTROLE DE ACESSO, SEGURANCA E PROTECAO PESSOAL E PREDIAL                               
+  572 FERRAMENTAS MANUAIS                                                                                                     
+  573 EQUIPAMENTOS DE INFORMATICA, APLICATIVOS (SOFTWARES) E ACESSORIOS                                                       
+  574 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA MEDICAO,PRECISSO,ORIENTACAO E LOCA-LIZACAO                                 
+  575 MAQUINAS, UTENSILIOS E ACESSORIOS PARA ESCRITORIO, COMUNICACAO VISUAL E DESENHO TECNICO                                 
+  576 ARMAS EM GERAL, ALGEMAS E ESCUDOS                                                                                       
+  577 MAQUINAS MOTORIZADAS PARA SERVICO PESADOS,CONSERVACAO E LIMPEZA DE VIAS PUBLICAS                                        
+  578 EQUIPAMENTOS E INSTRUMENTOS PARA UTILIZAùﬁO EM                                       VE≤CULOS LEVES E PESADOS           
+  579 EQUIPAMENTOS E COMPONENTES PARA ILUMINACAO DE INSTALACOES PUBLICAS                                                      
+  599 SERVICOS INDEVIDAMENTE REGISTRADOS NO ESTOQUE                                                                           
+  600 ARMAS EM GERAL, ALGEMAS E ESCUDOS                                                                                       
+  602 EMBARCACOES, AERONAVES E TRENS                                                                                          
+  604 VEICULOS LEVES, UTILITARIOS, PESADOS, ESPECIAIS E OUTROS (FROTA PMSP)                                                   
+  605 EQUIPAMENTOS E INSTRUMENTOS PARA UTILIZACAO EM VEICULOS LEVES E PESADOS                                                 
+  606 EQUIPAMENTOS, MAQUINAS E FERRAMENTAS ELETRICAS                                                                          
+  607 EQUIPAMENTOS PARA MOVIMENTACAO E SUSTENTACAO DE CARGAS DE PEQUENO,MEDIO E GRANDE PORTE                                  
+  608 MOTO-BOMBAS EM GERAL, COMPRESSORES, CENTRIFUGAS E MOTORES                                                               
+  610 MAQUINAS E EQUIPAMENTOS PARA HIGIENE, LIMPEZA E CONSERVACAO EM GERAL                                                    
+  612 EQUIPAMENTOS, MAQUINAS E ACESSORIOS PARA TRABALHOS EM TECIDO                                                            
+  614 MAQUINAS E EQUIPAMENTOS PARA LIMPEZA E CONSERVACAO URBANA (VIAS PUBLICAS, PRACAS, PARQUES E JARDINS)                    
+  616 SEMOVENTES; MAQUINAS E EQUIPAMENTOS PARA TRATO ANIMAL                                                                   
+  617 EQUIPAMENTOS E MATERIAIS PERMANENTES SOCIOAMBIENTAIS                                                                    
+  618 EQUIPAMENTOS PARA PURIFICACAO, AQUECIMENTO, VENTILACAO E CONDICIONAMENTO DE AR                                          
+  620 EQUIPAMENTOS E ACESSORIOS PARA CONTROLE DE ACESSO, SEGURANCA E PROTECAO PESSOAL E PREDIAL                               
+  622 EQUIPAMENTOS E ARTIGOS PARA ARMARINHO, TOUCADOR E HIGIENE PESSOAL                                                       
+  624 EQUIPAMENTOS PARA CONSTRUCAO, REPARO E MANUTENCAO CIVIL                                                                 
+  626 EQUIPAMENTOS PARA AQUECIMENTO, REFRIGERACAO, PURIFICACAO, TRATAMENTO DE AGUA E  ESGOTO                                  
+  628 EQUIPAMENTOS PARA GERACAO, TRANSMISSAO, ACUMULACAO, DISTRIBUICAO E RETIFICACAO  DE ENERGIA ELETRICA                     
+  630 FERRAMENTAS MANUAIS                                                                                                     
+  632 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS MEDICO-HOSPITALARES, FISIOTERAPICOS,ODONTOLOGICOS E VETERINARIOS                
+  636 ESTRUTURAS E ARTEFATOS PARA EVENTOS CULTURAIS, EDUCACIONAIS E RECREATIVOS                                               
+  638 EQUIPAMENTOS PARA REFEITORIO, COPA E COZINHA                                                                            
+  640 EQUIPAMENTOS DE INFORMATICA, APLICATIVOS (SOFTWARES) E ACESSORIOS                                                       
+  642 EQUIPAMENTOS PARA COMUNICACAO                                                                                           
+  644 ACERVO PARA BIBLIOTECAS E MUSEUS; MATERIAIS PARA CONSULTA E PESQUISA TECNICO ADMINISTRATIVO                             
+  646 INSTRUMENTOS MUSICAIS, PARTITURAS E ACESSORIOS                                                                          
+  648 EQUIPAMENTOS PARA DESPORTOS, ERGONOMETRIA E RECREACAO (BRINQUEDOS)                                                      
+  650 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA MEDICAO,PRECISSO,ORIENTACAO E LOCA-LIZACAO                                 
+  652 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA LABORATORIO                                                                
+  654 MOBILIARIO EM GERAL                                                                                                     
+  656 ARTIGOS PARA DECORACAO, DIVISAO E GUARNICAO DE AMBIENTES                                                                
+  658 RECIPIENTES E ACESSORIOS PARA ACONDICIONAMENTO E ARMAZENAMENTO                                                          
+  660 MAQUINAS, UTENSILIOS E ACESSORIOS PARA ESCRITORIO, COMUNICACAO VISUAL E DESENHO TECNICO                                 
+  662 OBRAS DE ARTE, OBJETOS DE VALOR HISTORICO E ACESSORIOS                                                                  
+  664 SIMBOLOS: BANDEIRAS E ACESSORIOS, INSIGNIAS E BRASOES                                                                   
+  666 MAQUINAS, EQUIPAMENTOS E ACESSORIOS PARA GRAFICA E REPROGRAFIA                                                          
+  668 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS OPTICOS                                                                         
+  670 MAQUINAS MOTORIZADAS PARA SERVICO PESADOS,CONSERVACAO E LIMPEZA DE VIAS PUBLICAS                                        
+  672 EQUIPAMENTOS E COMPONENTES PARA ILUMINACAO DE INSTALACOES PUBLICAS                                                      
+  700 ARMAS EM GERAL, ALGEMAS E ESCUDOS                                                                                       
+  704 VEICULOS LEVES, UTILITARIOS, PESADOS, ESPECIAIS E OUTROS (FROTA PMSP)                                                   
+  705 EQUIPAMENTOS E INSTRUMENTOS PARA UTILIZACAO EM VEICULOS LEVES E PESADOS                                                 
+  706 EQUIPAMENTOS, MAQUINAS E FERRAMENTAS ELETRICAS                                                                          
+  707 EQUIPAMENTOS PARA MOVIMENTACAO E SUSTENTACAO DE CARGAS DE PEQUENO, MEDIO E GRANDE PORTE                                 
+  708 MOTO-BOMBAS EM GERAL, COMPRESSORES, CENTRIFUGAS E MOTORES                                                               
+  710 MAQUINAS E EQUIPAMENTOS PARA HIGIENE, LIMPEZA E CONSERVACAO EM GERAL                                                    
+  712 EQUIPAMENTOS, MAQUINAS E ACESSORIOS PARA TRABALHOS EM TECIDO                                                            
+  714 MAQUINAS E EQUIPAMENTOS PARA LIMPEZA E CONSERVACAO URBANA (VIAS PUBLICAS, PRACAS, PARQUES E JARDINS)                    
+  716 SEMOVENTES; MAQUINAS E EQUIPAMENTOS PARA TRATO ANIMAL                                                                   
+  718 EQUIPAMENTOS PARA PURIFICACAO, AQUECIMENTO, VENTILACAO E CONDICIONAMENTO DE AR                                          
+  720 EQUIPAMENTOS E ACESSORIOS PARA CONTROLE DE ACESSO, SEGURANCA E PROTECAO PESSOAL E PREDIAL                               
+  722 EQUIPAMENTOS E ARTIGOS PARA ARMARINHO, TOUCADOR E HIGIENE PESSOAL                                                       
+  724 EQUIPAMENTOS PARA CONSTRUCAO, REPARO E MANUTENCAO CIVIL                                                                 
+  726 EQUIPAMENTOS PARA AQUECIMENTO, REFRIGERACAO, PURIFICACAO, TRATAMENTO DE AGUA E ESGOTO                                   
+  728 EQUIPAMENTOS PARA GERACAO, TRANSMISSAO, ACUMULACAO, DISTRIBUICAO E RETIFICACAO DE ENERGIA ELETRICA                      
+  730 FERRAMENTAS MANUAIS                                                                                                     
+  732 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS MEDICO-HOSPITALARES, FISIOTERAPICOS, ODONTOLOGICOS E VETERINARIOS               
+  736 ESTRUTURAS E ARTEFATOS PARA EVENTOS CULTURAIS, EDUCACIONAIS E RECREATIVOS                                               
+  738 EQUIPAMENTOS PARA REFEITORIO, COPA E COZINHA                                                                            
+  740 EQUIPAMENTOS DE INFORMATICA, APLICATIVOS (SOFTWARES) E ACESSORIOS                                                       
+  742 EQUIPAMENTOS PARA COMUNICACAO                                                                                           
+  744 ACERVO PARA BIBLIOTECAS E MUSEUS; MATERIAIS PARA CONSULTA E PESQUISA TECNICO ADMINISTRATIVO                             
+  746 INSTRUMENTOS MUSICAIS, PARTITURAS E ACESSORIOS                                                                          
+  748 EQUIPAMENTOS PARA DESPORTOS, ERGONOMETRIA E RECREACAO (BRINQUEDOS)                                                      
+  750 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA MEDICAO, PRECISAO, ORIENTACAO E LOCALIZACAO                                
+  752 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS PARA LABORATORIO                                                                
+  754 MOBILIARIO EM GERAL                                                                                                     
+  756 ARTIGOS PARA DECORACAO, DIVISAO E GUARNICAO DE AMBIENTES                                                                
+  758 RECIPIENTES E ACESSORIOS PARA ACONDICIONAMENTO E ARMAZENAMENTO                                                          
+  760 MAQUINAS, UTENSILIOS E ACESSORIOS PARA ESCRITORIO, COMUNICACAO VISUAL E DESENHO TECNICO                                 
+  762 OBRAS DE ARTE, OBJETOS DE VALOR HISTORICO E ACESSORIOS                                                                  
+  764 SIMBOLOS: BANDEIRAS E ACESSORIOS, INSIGNIAS E BRASOES                                                                   
+  766 MAQUINAS, EQUIPAMENTOS E ACESSORIOS PARA GRAFICA E REPROGRAFIA                                                          
+  768 EQUIPAMENTOS, INSTRUMENTOS E ACESSORIOS OPTICOS                                                                         
+  770 MAQUINAS MOTORIZADAS PARA SERVICOS PESADOS, CONSERVACAO E LIMPEZA DE VIAS PUBLICAS                                      
+  772 EQUIPAMENTOS E COMPONENTES PARA ILUMINACAO DE INSTALACOES PUBLICAS                                                      
+  800 VEICULOS TERRESTRES; MAQUINAS MOTORIZADAS PARA SERVICOS PESADOS(FROTA MUNICIPAL)                                        
+  802 VEICULOS AEREOS E NAUTICOS                                                                                              
+  804 ADMINISTRACAO, FINANCAS, ECONOMIA E AREA JURIDICA                                                                       
+  806 AGUA, AR E GAS                                                                                                          
+  808 AMBIENTES EXTERNOS E INTERNOS E REVESTIMENTOS                                                                           
+  810 ARMAZENAGEM, ESCRITORIO E EDUCACAO                                                                                      
+  812 ARQUITETURA, URBANISMO E MEIO AMBIENTE                                                                                  
+  814 COMUNICACAO                                                                                                             
+  816 CONTROLES DE ACESSO; SEGURANCA E PROTECAO PESSOAL, PREDIAL E PATRIMONIAL;SEGUROS                                        
+  818 EDIFICACOES E LOGRADOUROS (OBRAS E MANUTENCOES DE CONSTRUCAO CIVIL)                                                     
+  820 CULTURA                                                                                                                 
+  822 ENERGIA E ILUMINACAO                                                                                                    
+  824 EQUIPAMENTOS, MAQUINAS, FERRAMENTAS ELETRICAS, COMPRESSORES, MOTO-BOMBAS                                                
+  826 INFORMATICA                                                                                                             
+  828 LIMPEZA URBANA E SANEAMENTO                                                                                             
+  830 LOCALIZACAO, MAPEAMENTO, MEDICAO E PRECISAO                                                                             
+  832 LOCOMOCAO E ESTADIA DE FUNCIONARIOS                                                                                     
+  834 NUTRICAO E ALIMENTACAO                                                                                                  
+  836 PRODUCAO GRAFICA E REPROGRAFICA                                                                                         
+  838 RECREACAO E DESPORTOS                                                                                                   
+  840 ROUPARIA E CONFECCOES EM GERAL                                                                                          
+  842 SAUDE                                                                                                                   
+  844 TRANSPORTADOR ESTACIONARIO DE PESSOAS E CARGAS; TRANSPORTE DE CARGAS, VALORES E CORRESPONDENCIAS                        
+  846 SERRALHERIA                                                                                                             
+  999 DESPESAS ADMINISTRATIVAS                                                                                                

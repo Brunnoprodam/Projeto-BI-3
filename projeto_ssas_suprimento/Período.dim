@@ -1,0 +1,144 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Período</ID>
+  <Name>Período</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.116667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.116667Z</LastSchemaUpdate>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration>
+    <KeyErrorLimit>-1</KeyErrorLimit>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Dia attribute</ID>
+      <Name>Dia attribute</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>14976</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_v_d_PMSP_data</TableID>
+            <ColumnID>cd_dia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_v_d_PMSP_data</TableID>
+          <ColumnID>cd_dia</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Mês attribute</AttributeID>
+          <Name>Mês attribute</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Ano attribute</AttributeID>
+          <Name>Ano attribute</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Mês attribute</ID>
+      <Name>Mês attribute</Name>
+      <EstimatedCount>492</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_v_d_PMSP_mes</TableID>
+            <ColumnID>ci_mes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_v_d_PMSP_mes</TableID>
+          <ColumnID>sg_mes</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Ano attribute</ID>
+      <Name>Ano attribute</Name>
+      <EstimatedCount>41</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_v_d_PMSP_ano</TableID>
+            <ColumnID>cd_ano</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_v_d_PMSP_ano</TableID>
+          <ColumnID>ci_ano</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todos</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Período</ID>
+      <Name>Período</Name>
+      <AllMemberName>Todos</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level>
+          <ID>Ano</ID>
+          <Name>Ano</Name>
+          <SourceAttributeID>Ano attribute</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Mês</ID>
+          <Name>Mês</Name>
+          <SourceAttributeID>Mês attribute</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Dia</ID>
+          <Name>Dia</Name>
+          <SourceAttributeID>Dia attribute</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ProcessingGroup>ByTable</ProcessingGroup>
+</Dimension>

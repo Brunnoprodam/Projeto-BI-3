@@ -1,0 +1,233 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d03edc83-1d4b-4cd2-aea1-f77ff2381810" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Período Fornecimento</ID>
+  <Name>Período Fornecimento</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.413333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.413333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2017" scrolltop="-2963" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8202" y="12383" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_fornecimento_material_fato" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4392" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800002811000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fornecimento_material_fato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2017</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2963</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="135">
+            <Shape Id="Dia Fornecimento attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dia Fornecimento attribute 1" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Ano Fornecimento attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ano Fornecimento attribute 1" />
+              </Attributes>
+              <Position x="193" y="20" />
+            </Shape>
+            <Shape Id="Mês Fornecimento attribute 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="Mês Fornecimento attribute 3" />
+              </Attributes>
+              <Position x="193" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ee4c1a4-4ec9-42ad-80f7-4e62f5866d1b">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="a67098aa-f5cf-4e38-a58b-55b2fc3597bc">
+      <ID>Dia Fornecimento attribute 1</ID>
+      <Name>Dia Fornecimento</Name>
+      <Type>Days</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>1378</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b456126a-3a43-4ceb-925b-78891b5bbbbf">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="48a93a78-024a-4233-9a18-d0fd66caadf2">
+            <TableID>dbo_fornecimento_material_fato</TableID>
+            <ColumnID>dt_movimento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="396a8d81-a2c7-4073-9f4e-4da020e76a1a">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cb4e71cc-fa7f-4044-8215-117a6a37ebcc">
+          <TableID>dbo_fornecimento_material_fato</TableID>
+          <ColumnID>di_movimento</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c851634c-a782-4adf-931e-effc7b98f2ee">
+          <AttributeID>Mês Fornecimento attribute 3</AttributeID>
+          <Name>Mês Fornecimento</Name>
+          <Visible>false</Visible>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fc7ae330-7bed-4c1d-8943-08283ff0b465">
+          <AttributeID>Ano Fornecimento attribute 1</AttributeID>
+          <Name>Ano Fornecimento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8855cf52-ac03-4db1-937c-d3a18f16b8ec">
+      <ID>Mês Fornecimento attribute 3</ID>
+      <Name>Mês Fornecimento</Name>
+      <Type>Months</Type>
+      <EstimatedCount>57</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5ba1a72a-cc24-4f54-9594-2ef3249cc65c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f5993f2-8e74-4adc-a737-e53637d81267">
+            <TableID>dbo_fornecimento_material_fato</TableID>
+            <ColumnID>ms_movimento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d320b68d-7268-4ed3-876a-488e31141d1b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="162a1b3d-2a09-4841-ad62-04ed62f2ac0a">
+          <TableID>dbo_fornecimento_material_fato</TableID>
+          <ColumnID>ms_movimento_extenso</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7c791ec-20b8-4517-8de1-fb4a6d73860d">
+      <ID>Ano Fornecimento attribute 1</ID>
+      <Name>Ano Fornecimento</Name>
+      <Type>Years</Type>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dde2ed99-ef76-4a2f-bad2-2c7e6ec57219">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a84233bb-d97e-4c99-9de3-43cf17d0a2b5">
+            <TableID>dbo_fornecimento_material_fato</TableID>
+            <ColumnID>ano_movimento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dc6df838-1a1a-4e62-a048-dd5d5ae0b0db">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7842b8d8-edba-4385-acb2-ee7a44424330">
+          <TableID>dbo_fornecimento_material_fato</TableID>
+          <ColumnID>ano_movimento</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todos</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="0655abb7-987c-457f-a0e2-9be1c010af4a">
+      <ID>Período Fornecimento</ID>
+      <Name>Período Fornecimento</Name>
+      <AllMemberName>Todos</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level dwd:design-time-name="861f2ee8-442a-43db-bca9-b202dc00f440">
+          <ID>Ano Fornecimento</ID>
+          <Name>Ano Fornecimento</Name>
+          <SourceAttributeID>Ano Fornecimento attribute 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ee40b37f-43af-4b51-9f43-9fa050574979">
+          <ID>Mês Fornecimento</ID>
+          <Name>Mês Fornecimento</Name>
+          <SourceAttributeID>Mês Fornecimento attribute 3</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ffabcb93-46e6-45bc-8cb9-a2e1fd189b23">
+          <ID>Dia Fornecimento</ID>
+          <Name>Dia Fornecimento</Name>
+          <SourceAttributeID>Dia Fornecimento attribute 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="92fac4ca-95a9-4747-9b64-0590cf8445cc">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="09806bcf-7cb4-47c0-9060-ca2895de60e5" />
+  </ProactiveCaching>
+</Dimension>

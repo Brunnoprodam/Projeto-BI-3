@@ -1,0 +1,1075 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="be845ec4-e8e1-438e-9a57-64ed4f7e8c26" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Saldo Estoque Ativo</ID>
+  <Name>Saldo Estoque</Name>
+  <CreatedTimestamp>2013-11-28T12:36:09.46Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:36:09.46Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1288" scrolltop="-2783" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20532" y="12859" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_saldo_estoque_fato" left="4825" top="-1525" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3863" height="8951" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000170f0000f7220000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_saldo_estoque_fato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_v_unidade_origem" left="10240" top="-1393" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="4674" height="8457" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004212000009210000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_unidade_origem" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_grupo" left="-2593" top="9383" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="3545" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000d90d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_grupo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_item" left="-1517" top="-1693" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="4763" height="9020" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800009b1200003c230000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_item" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_classe" left="-6960" top="3326" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3889" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000310f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_classe" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_natureza" left="-6682" top="-1709" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="4180" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000541000004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_natureza" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8388" top="236" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="2152" height="814" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Relation35]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="24" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10240" y="635" />
+              <point x="9840" y="635" />
+              <point x="9840" y="750" />
+              <point x="8688" y="750" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="652" top="7126" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="4754" height="4528" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Relation36]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="21" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="952" y="11254" />
+              <point x="2551" y="11254" />
+              <point x="2551" y="11268" />
+              <point x="5106" y="11268" />
+              <point x="5106" y="7426" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2946" top="-1432" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="2179" height="2482" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_saldo_estoque_fato_item]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="21" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3246" y="-1033" />
+              <point x="3947" y="-1033" />
+              <point x="3947" y="750" />
+              <point x="4825" y="750" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-5381" top="6822" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="3088" height="3082" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_grupo_classe]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-3366" y="7321" />
+              <point x="-3366" y="7721" />
+              <point x="-4716" y="7721" />
+              <point x="-4716" y="7675" />
+              <point x="-5081" y="7675" />
+              <point x="-5081" y="9604" />
+              <point x="-2593" y="9604" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1770" top="7027" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2856" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_item_grupo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1371" y="9383" />
+              <point x="-1371" y="7727" />
+              <point x="-1336" y="7727" />
+              <point x="-1336" y="7327" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-6641" top="941" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="825" height="2685" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_classe_natureza]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="1" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-6242" y="1440" />
+              <point x="-6242" y="2383" />
+              <point x="-6116" y="2383" />
+              <point x="-6116" y="3326" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1288</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2783</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-6960</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1709</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Language>1046</Language>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <Dimensions>
+    <Dimension dwd:design-time-name="bf60652c-03e2-4e85-aef2-26ed24b689d4">
+      <ID>Natureza</ID>
+      <Name>Natureza</Name>
+      <DimensionID>Natureza</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bfd62045-ee96-468e-895d-c48972030e72">
+          <AttributeID>Classe attribute 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b343580-dd07-441f-bc5a-e3ae4f9f91af">
+          <AttributeID>Natureza attribute 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e7393cc3-f012-4b65-a88a-8414fed50cad">
+          <AttributeID>generated attribute 2</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8c8bda15-4fee-4d57-8ff6-c1317bd6b322">
+          <HierarchyID>Natureza</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="214ba80c-03ce-4574-98da-428f445a8ee6">
+      <ID>Item</ID>
+      <Name>Item</Name>
+      <DimensionID>Item</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7f6c979f-7efd-486e-a604-fa704a992866">
+          <AttributeID>Status attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e3e4e22-e356-438e-8531-f410ad4a5cf4">
+          <AttributeID>Item attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="e564d83e-18f4-4271-87d5-141551691227">
+          <AttributeID>Início attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="362da26d-3974-40be-87e8-db4b5836b567">
+          <AttributeID>generated attribute 6</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fd5bf136-ee8c-4a72-b0c3-0f4beb3452d5">
+          <HierarchyID>Item</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="61134ba9-0530-4987-bd97-d861b5c8b6ba">
+      <ID>Unidade Origem</ID>
+      <Name>Unidade Origem</Name>
+      <DimensionID>Unidade Origem</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9bc0e777-4f99-4164-8a11-b7c31eaecd1a">
+          <AttributeID>Seção Origem attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="bdd3cd06-8a1b-4625-8865-7b49c6e1407b">
+          <AttributeID>Unidade Origem attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="5187b987-63ae-4d1b-91dc-9ce18adf2ca0">
+          <AttributeID>Órgão Origem attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b7792a2-1753-4037-bb80-7e0544dc9ed2">
+          <AttributeID>generated attribute</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e3b26200-1d48-4afa-a9c9-dab96a6d050b">
+          <HierarchyID>Unidade Origem</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="0babf01e-54e5-4395-92eb-b49d8b20ba75">
+      <ID>Período Estoque</ID>
+      <Name>Período Estoque</Name>
+      <DimensionID>Período Estoque</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9304570a-8a55-4968-b701-360c5eb6bbef">
+          <AttributeID>DIa Estoque attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec3b43fa-4c68-4f2c-b75f-ff5154fa7d6b">
+          <AttributeID>Mês Estoque attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="9799421d-63f7-4130-ad27-2402cdfc27f5">
+          <AttributeID>Ano Estoque attribute</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e6042e67-9658-40c9-a964-702156ffa2cb">
+          <HierarchyID>Período Estoque</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c3c36206-aed8-4c86-afa5-b056b20dbed4">
+      <ID>Natureza Código</ID>
+      <Name>Natureza Código</Name>
+      <DimensionID>Natureza Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="798a8ee7-6fa8-4800-96f8-fccf2606d217">
+          <AttributeID>Classe attribute 2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a19f33bd-59a8-4616-af8f-3d9a52403dd1">
+          <AttributeID>Natureza attribute 2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12551f57-21b2-41c5-9620-28e5bdc7aec9">
+          <AttributeID>generated attribute 5</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5d9cd386-b1ad-4a14-b742-f9c036ff7786">
+          <HierarchyID>Natureza Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="26584604-62db-42c3-b05c-5b92ab7f8c1d">
+      <ID>Item Código</ID>
+      <Name>Item Código</Name>
+      <DimensionID>Item Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="52c2e51b-0f54-468a-85b9-4b622fb76a9b">
+          <AttributeID>Status attribute 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74bf39cd-ec0c-48f3-9fc1-f396a70060d8">
+          <AttributeID>Item attribute 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4a5d533-00f0-4df1-a10b-ea9a14f443bb">
+          <AttributeID>Grupo attribute</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e412be87-81c2-4ea5-8d44-ba63cf1d08f7">
+          <AttributeID>Classe attribute</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="906749c8-2021-4794-aab2-7d3126af8f2f">
+          <AttributeID>Natureza attribute</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12745000-8313-4ab0-bb97-5f89b1db40eb">
+          <AttributeID>generated attribute 11</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e59147a0-f233-44c6-a41a-5f9374fd0d30">
+          <HierarchyID>Item Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a7509f7d-84d4-4e2d-a257-31b83c37fbf1">
+      <ID>Unidade Origem Código</ID>
+      <Name>Unidade Origem Código</Name>
+      <DimensionID>Unidade Origem Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c3978f97-ddc9-47de-8683-38127c357ed2">
+          <AttributeID>Seção Origem attribute 1</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c8e91a5-f26a-479d-b05e-242ebf8eda3a">
+          <AttributeID>Unidade Origem attribute 1</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="54a20398-4298-4068-9f9a-4015727748da">
+          <AttributeID>Órgão Origem attribute 1</AttributeID>
+          <AggregationUsage>Unrestricted</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e80c36f-3442-4321-a699-110e61302bdf">
+          <AttributeID>generated attribute 3</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="17c197a8-f7a8-4ab5-9780-d59fbdf02eb0">
+          <HierarchyID>Unidade Origem Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="5f7a5191-4fd8-400b-b7e8-94817a583746">
+      <ID>Saldo Estoque Ativo</ID>
+      <Name>Saldo Estoque</Name>
+      <CreatedTimestamp>2013-11-28T12:36:09.54Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:09.54Z</LastSchemaUpdate>
+      <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="92175e99-160b-4315-955c-c3281967d161">
+          <ID>Qt Estoque</ID>
+          <Name>Qt Estoque</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="0f7aa359-2575-40cf-a6a8-9805b2b992cc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f096c90e-002d-4c5c-9cbc-3dfb0b876d37">
+              <TableID>dbo_saldo_estoque_fato</TableID>
+              <ColumnID>qt_estoque</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#.00</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="30d8ef9f-c020-46c5-8b98-6f61603ef60e">
+          <ID>Vl Estoque</ID>
+          <Name>Vl Estoque</Name>
+          <DataType>Currency</DataType>
+          <Source dwd:design-time-name="e40e8749-175c-4d6a-895f-c9d6fd596456">
+            <DataType>Currency</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="13923895-d2ae-4889-b4c3-f8d44a715de3">
+              <TableID>dbo_saldo_estoque_fato</TableID>
+              <ColumnID>vl_estoque</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>3780535</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="08c1c235-c237-4c34-9e72-3cfb77a8a7fc">
+          <CubeDimensionID>Período Estoque</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b5afdda4-03c2-4797-bd1f-ea6c63b7a9d3">
+              <AttributeID>DIa Estoque attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bef2f26d-5f2d-47d3-833f-3c670a6e43fe">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a2827e6-0af7-4ed4-ad5c-e2f352203a0d">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>dt_estoque</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="0b584c5f-9d4f-4a1f-945b-6f103e6373db">
+              <AttributeID>Mês Estoque attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c611562d-3b6e-47a7-9b6d-8b6ac724bd98">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9af9582-3226-48b5-8993-c2205e573106">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>ms_estoque</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="e3766b11-3cf9-4f32-9d6a-e4338ce3f235">
+              <AttributeID>Ano Estoque attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="913bef06-6b8f-4c4c-b66a-2e7aab8777e5">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d4a95ca-1e1d-4523-ab23-4ca618d5c3a8">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>an_estoque</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3a044b1-f33b-4de6-a607-c2cbd3fa25ca">
+          <CubeDimensionID>Natureza Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b6e11bc1-62d2-46a0-908b-427c656f58a2">
+              <AttributeID>generated attribute 5</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="52fb6458-c44a-4886-bf52-f2f418eee1e8">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ed95cb7-2815-434e-9a5d-10fe4e78290b">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6dd816ae-5c1e-4080-ba30-dd4d0a7fbab4">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e04145dd-1143-4a20-9749-0ddc26a1c842">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="078a8520-a453-4c06-8d9d-414831e9566c">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b9ef0937-ac83-4397-8292-7a869d69e97a">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4658d2d6-ab50-4f50-a674-a7bc905a3aa3">
+          <CubeDimensionID>Natureza</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73d5559f-550b-41e3-85c0-6cf8df78b4c1">
+              <AttributeID>generated attribute 2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="af53f008-482f-40ca-8875-64141080d638">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ee5015f-2bb0-49d5-8eb4-56491caa5189">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a735bcc9-d6a1-4c34-8f68-e6215e97afcf">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="232c21e6-8ff5-444a-82b8-f347d2154fb3">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2a1fa475-8c32-40bd-8060-f4d812774e92">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="71fed859-8061-48c4-879e-c47f95710d0b">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5d7c8694-fc1c-4bb7-a25f-9ff0796866e1">
+          <CubeDimensionID>Item Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d29634ee-2b78-41b1-869d-f14950c85a14">
+              <AttributeID>Item attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c5e060de-f682-4a57-85a4-624bf2c1d307">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="16609bf0-f0ed-4072-ac84-4b1112e1658f">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="0160318c-0aaa-49fb-9a91-559d06fb2e43">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9b2ba194-26af-4b4e-a949-cb586d086e90">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5ed15745-a1f6-40e8-a638-cc6a307ebaad">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d14ce7d8-41db-42c0-a765-84fbeac74778">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="facc6052-1a60-45e5-a344-ce267bf073e6">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3ddfac13-ed45-4c36-ae8f-f8183dbe9e98">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c57c862d-f525-42a6-b684-d52cd28ede9c">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dd09f09f-297d-4762-baca-05e3fdddefaf">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="47cce65b-555b-401d-9cbd-7773b13bef97">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36e99346-c698-42b6-9295-378b71fd7d8e">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_dac_material</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="e79cdef6-9060-4f53-815f-46e595f49d1e">
+              <AttributeID>generated attribute 11</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4bcf008-a600-4445-b73d-ad35f38f6d32">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2471fa35-1150-432b-aa9f-668df205a8c4">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b9a4342a-c20b-45c7-b041-95a73a50f4a3">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9825aa5-2780-4045-a424-0d8a2b6058ab">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8bb319c6-eba9-4c0f-833f-46468d0b5a51">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0f6346b8-4378-411c-8cdd-74136593d724">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6073f9d9-b345-4525-afe6-72a14ec4e1c0">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="593e272f-a53b-4ea8-b2b8-26c6a8543f01">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5918c025-d954-4d79-92f7-552a87d96083">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a52dd7b-9dc2-4e5a-896c-d2aa4ed09052">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6dd04bc7-ffd3-42e3-9af9-7454a839614f">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f838d73c-9f70-45b4-869e-ab3d0dcb8255">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_dac_material</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0b2323ea-26c6-4bca-83f2-3be086b3c586">
+          <CubeDimensionID>Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="697fcbf7-8993-49f2-9053-cd421fd81598">
+              <AttributeID>Status attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="269aa8df-318d-42cc-9ed5-175f7555205b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8777d47f-2105-4968-8907-77da7f6bc0da">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="389b1036-fe29-4c88-a070-2a3480967c5e">
+              <AttributeID>Item attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="836ceb28-716b-431f-9117-92fbecbdf1d9">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75eb1c4c-f354-461f-8613-b5c98bd9d94e">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>dc_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b1fea1b9-c133-427a-9703-dbdda3c65ed9">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="92f54f9d-f49a-421b-ab41-6b89d33a5f69" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="59953a80-0175-43d9-a191-c98559c71d0b">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="fcd44fda-16c3-4880-8632-2196bc4cc3a9" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5ca5ff17-b3dd-46bc-9c8d-0bd1c0b502b9">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="ee34f354-8ff7-43af-b849-b6a96dd14001" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="88af5b41-e11b-491c-a27b-a37b7d0950ce">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="38519e82-1f0d-451e-bcf1-8fa4472d2c52" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="e72a2804-4dcb-4c4d-8233-9001115b6f5c">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="5fa5c8b5-d098-4756-9a62-cd3704ff0908" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a37b9a46-6ce9-4df7-9801-f9e57dc9184f">
+              <AttributeID>Início attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f94c803f-b1d8-40ed-9f14-d8c14b721240">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="576a41dd-0ebb-4f84-9a22-2bd138482025">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>Column1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a8f392f2-0622-4baf-abde-e28814002d81">
+              <AttributeID>generated attribute 6</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="99da8ad0-4bfe-4a55-b087-722f23239a34">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e17d4e4a-383a-431c-8773-228d73f9c737">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d96111c3-ffda-4a60-add4-47a047ec506b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6913f561-963f-43fd-9e17-45eed65b5e15">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="cff5ad46-e760-4a76-9b47-9ffbebef387b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="face7a67-a966-4f8b-9424-e1ced5a7f527">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="eda5e19d-c691-4fc4-8be0-cb20ffcb95cf">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="acf7df05-f714-47ef-a454-be5cc0033887">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="fd875634-06a1-4175-857f-2fd102388d91">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9da57df1-f1eb-4e06-bd2d-b310c782002b">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6cf48381-2343-4ba6-b4f6-45bad0cb6f7b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cff9fea8-0f8d-4d9b-ad7d-8dbc6d06a1ee">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_dac_material</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="593bca3c-4bbd-4342-8c8b-850b4a278270">
+          <CubeDimensionID>Unidade Origem Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="79e04554-26e4-45cd-acd9-911156bdeadc">
+              <AttributeID>Seção Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a97e001d-9b85-4183-9cba-af897f59e848">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="58cd57dd-4369-4f59-80c7-f55ddbd62d03">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="86f295e7-8112-42c8-abe3-182a6b5e3370">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="50b1ccc6-8d68-4f78-93f3-c86525aebac0" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="24c8ae0c-f46e-4445-8689-d4eee3258a0d">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="11fbc7a6-fe5b-4e13-8e19-78dfc15a3bf9" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="ad249ef0-8ccf-4799-901c-6c49f83db00d">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="345f032c-8a18-4140-aa70-bd8af54a539e" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="259b10c4-366d-4ec8-ac45-2838263ae935">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="03273b46-04e1-4bdd-8f59-d84181cfb6a9" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="652e0738-4bd5-4dc8-8300-33135c21346d">
+              <AttributeID>Unidade Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="89d4846a-de6d-4d47-8c1d-270669691b8e">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aca62360-5a03-4724-a5a5-f4bc9794d54d">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c3949326-d4df-4ccb-bb64-a95b75982950">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="7ee7f241-f98a-427f-a268-8a1dc04ca557" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c31405b1-38de-435f-82dc-72d9b07f7bf0">
+              <AttributeID>Órgão Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f8661c62-3629-467a-b9c1-249f5e11112f">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88afdc7d-8a3f-4042-a6e9-1b55d07c4234">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="60ab330f-ab38-4d54-b525-d26dc268d263">
+              <AttributeID>generated attribute 3</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cd34f628-abdd-49c8-b00e-5af9c5a6719a">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11db81f1-0d9c-4892-985e-ffca2f68da91">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c769c96c-8c79-4a35-b7ab-43a4d4386046">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0dad7541-8941-445c-ae0c-48af710e3d45">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="0cbdc945-a9eb-4a3d-b844-c407034b35c1">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="873c8c44-0ec0-42b1-b8f6-6ccb2b72c8db">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_divisao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5780934d-7b27-4fc6-97f9-6b372c70ca0e">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f8584dd6-0236-4531-ba1b-8fefedecc1f6">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f301c9e8-401a-4dc7-86f3-5d2ddb23ea21">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9e964b28-74b5-40e8-a1fd-f719d56ac279">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_dac_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0051a153-4fb1-406e-b4bd-9f6ab3e4d254">
+          <CubeDimensionID>Unidade Origem</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0e92dea6-aa22-4c49-ad85-25398f5f8873">
+              <AttributeID>Seção Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b9becbc3-f01e-402e-9b89-19e885c01e6f">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3c468bf-2768-4327-9977-42c3bb16abe2">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>nm_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="61ea1dc3-07dd-4cd6-a727-e1b0b18de184">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="02a1c243-1aa6-4eed-b216-51d278c7f9cf" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4fc54c9d-b48a-484f-b0bc-e8ec67c36169">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="63e5e8a3-f8d5-44fa-8450-2f8112c1701d" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8706f5a7-1239-4ac6-b064-31713e6a8c3f">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="6ef24e36-090f-4884-89ba-308e7b0e7c27" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="028cb08b-512c-4371-80e4-dcebf4b8f797">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="c84de033-46c2-4808-9117-f3f3488f16f5" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="9b5179ad-094a-4492-b038-805c16fc9f03">
+              <AttributeID>Unidade Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d57afa23-11e4-4224-8161-2eb4131e8707">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ce40b5c-ea4b-4799-8783-49ca5587a334">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>nm_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f1f5e803-98e9-4ff2-9f52-613b13a71855">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="d6bdac1d-95ce-40c3-a3b7-62e0d39900aa" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="290f80eb-e09d-41c4-a914-6fb57b40e84a">
+              <AttributeID>Órgão Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="49f09e9e-fba1-49c3-8042-0c68c0161e15">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5a6e7bb3-ccd6-45a5-aea9-6c9ce568fec4">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>mn_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="105929dd-ec68-402d-9a53-eb16646845ba">
+              <AttributeID>generated attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6c5dc4f2-c879-457a-9664-ff2dbfc443cd">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a73fdc12-6721-4099-818a-10bae3e9835a">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="56666aef-43ac-4b7a-91c8-f1e5329ad3aa">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc771d54-4e02-4cbd-a46d-e712bb7efe0a">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4d5d2ab7-3f2a-41cc-a140-4b7e06fcd1d1">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f6b445aa-92cf-469a-952d-bffd7d03af67">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_divisao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b326ae82-e8b2-4323-b9b0-b6690455c4f4">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="947399d8-8e57-4bd3-abab-8a547906cbb0">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="fe0d927a-3dda-4d18-9157-1a4ea7bbfdf3">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3ae8ee77-8fb0-424b-9212-3297c513bbba">
+                    <TableID>dbo_saldo_estoque_fato</TableID>
+                    <ColumnID>cd_dac_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="5f879ff7-b18d-4486-bd7b-7ceab25d7d03">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="69cf184c-8ae2-48db-895e-e8ac815fdd3f" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="a68d49b4-dd3f-47e9-a84c-02f44df1569a">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="f4b37965-114b-4598-b655-cb4a0a4d727e">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T02:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T02:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <ErrorConfiguration dwd:design-time-name="0f58387e-4e14-47fb-941e-e3df6358a285">
+    <KeyErrorLimit>-1</KeyErrorLimit>
+  </ErrorConfiguration>
+  <EstimatedRows>3780535</EstimatedRows>
+  <ProactiveCaching dwd:design-time-name="fb4ea749-1fa8-47eb-817d-aae9d3aa5d34">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="dad679c1-30d8-4962-bc3b-e682c8bceee7" />
+  </ProactiveCaching>
+</Cube>

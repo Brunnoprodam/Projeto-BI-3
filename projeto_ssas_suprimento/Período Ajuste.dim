@@ -1,0 +1,233 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9fbb8260-d09e-45b3-8bce-1bb7c3004949" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Período Ajuste</ID>
+  <Name>Período Ajuste</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.256667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.256667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-73" scrolltop="-4776" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8202" y="12383" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_ajuste_fato" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000f213000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ajuste_fato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-73</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4776</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="148">
+            <Shape Id="Dia Ajuste attribute" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dia Ajuste attribute" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Ano Ajuste attribute" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ano Ajuste attribute" />
+              </Attributes>
+              <Position x="210" y="20" />
+            </Shape>
+            <Shape Id="Mês Ajuste attribute" Expanded="false">
+              <Attributes>
+                <Attribute Id="Mês Ajuste attribute" />
+              </Attributes>
+              <Position x="210" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="868705bf-beb4-4d58-9f09-a816f51d47f9">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="4ec49949-8770-4262-bfb8-c5ffcb60cdbe">
+      <ID>Dia Ajuste attribute</ID>
+      <Name>Dia Ajuste</Name>
+      <Type>Days</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>904</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a19a44de-442d-4560-a7cc-51e1deb8abb0">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9bcd6ab5-be4d-433e-b591-dd5c1dee4aaa">
+            <TableID>dbo_ajuste_fato</TableID>
+            <ColumnID>dt_movimento_ajuste</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3926d2d9-f148-41ae-b79d-8218cd46e892">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cb655cf4-a280-477d-8ba5-c7f5a0079403">
+          <TableID>dbo_ajuste_fato</TableID>
+          <ColumnID>di_movimento_ajuste</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2975222c-549f-4a4c-a17d-6e787f25950c">
+          <AttributeID>Mês Ajuste attribute</AttributeID>
+          <Name>Mês Ajuste</Name>
+          <Visible>false</Visible>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ecb570f3-2119-4b2e-bd08-56f9092889cc">
+          <AttributeID>Ano Ajuste attribute</AttributeID>
+          <Name>Ano Ajuste</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f2d5ca27-ae14-4a61-b4b2-d654cb00e394">
+      <ID>Mês Ajuste attribute</ID>
+      <Name>Mês Ajuste</Name>
+      <Type>Months</Type>
+      <EstimatedCount>48</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ead8aef2-209b-4fe2-9385-0fcefded3293">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14256680-d662-4e33-9988-73579d84abda">
+            <TableID>dbo_ajuste_fato</TableID>
+            <ColumnID>ms_movimento_ajuste</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b9303dfd-8340-48c6-9dbb-0b463c09ecc7">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fccabd78-50c6-404d-bc96-1a8f0115a663">
+          <TableID>dbo_ajuste_fato</TableID>
+          <ColumnID>ms_movimento_ajuste_extenso</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0add96b-6dde-4ed2-b906-2ba66bee563c">
+      <ID>Ano Ajuste attribute</ID>
+      <Name>Ano Ajuste</Name>
+      <Type>Years</Type>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cb65c74b-cb14-4cd8-ad17-c46f9a21f6f9">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="355512f6-367a-4ba7-95e4-f5c3346f1325">
+            <TableID>dbo_ajuste_fato</TableID>
+            <ColumnID>an_movimento_ajuste</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c2f72198-6298-44c7-8096-4fad09499aaf">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a6630133-9054-4d70-9e53-b1228dcdb563">
+          <TableID>dbo_ajuste_fato</TableID>
+          <ColumnID>an_movimento_ajuste</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todos</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d80fae5f-8009-4a68-b428-26fd971b3050">
+      <ID>Período Ajuste</ID>
+      <Name>Período Ajuste</Name>
+      <AllMemberName>Todos</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level dwd:design-time-name="343296b1-10e2-4269-a167-92261d9767a2">
+          <ID>Ano Ajuste</ID>
+          <Name>Ano Ajuste</Name>
+          <SourceAttributeID>Ano Ajuste attribute</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c7f3b7cd-d903-4013-8c0f-956b2ef53aed">
+          <ID>Mês Ajuste</ID>
+          <Name>Mês Ajuste</Name>
+          <SourceAttributeID>Mês Ajuste attribute</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="42850857-afb2-4246-addd-7184f6fc2e07">
+          <ID>Dia Ajuste</ID>
+          <Name>Dia Ajuste</Name>
+          <SourceAttributeID>Dia Ajuste attribute</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="2e3b02ab-5534-488e-ae64-4219cb3c6580">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2075d53c-39da-4acc-8bad-4f8789c98cbd" />
+  </ProactiveCaching>
+</Dimension>

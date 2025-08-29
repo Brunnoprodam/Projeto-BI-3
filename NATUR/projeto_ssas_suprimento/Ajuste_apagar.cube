@@ -1,0 +1,1195 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="841a802b-35a5-4df1-b716-b23c30110214" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Ajuste</ID>
+  <Name>Ajuste</Name>
+  <CreatedTimestamp>2013-11-28T12:36:10.226667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:36:10.226667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <Dimensions>
+    <Dimension dwd:design-time-name="84db9c7c-16de-4d7e-a292-04f2956340b9">
+      <ID>Unidade Origem</ID>
+      <Name>Unidade Origem</Name>
+      <DimensionID>Unidade Origem</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1c068e84-9c2b-4696-9101-a371f66a6182">
+          <AttributeID>Seção Origem attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d882e75-0096-4861-8110-4170f2321146">
+          <AttributeID>Unidade Origem attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="2bec72f0-23ff-4cc1-833a-db98c12786b1">
+          <AttributeID>Órgão Origem attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="b280e29d-2fc5-45e9-865a-f0dbefdc1dc3">
+          <AttributeID>generated attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ae5f9154-1672-4e06-82cb-0b2ee89e6291">
+          <HierarchyID>Unidade Origem</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="72c4332c-7361-4e68-8e66-ba4b682235b2">
+      <ID>Item</ID>
+      <Name>Item</Name>
+      <DimensionID>Item</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0720615c-aaf9-4e6a-bf42-26c734c5a971">
+          <AttributeID>Status attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="87c0bce3-2eb4-45da-b53b-3c8c968ff2d9">
+          <AttributeID>Item attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2277479-0c4e-40e2-b554-2e4e5ede20dd">
+          <AttributeID>Início attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="078efdc5-2d22-4d76-a936-ee5b20fd3172">
+          <AttributeID>generated attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="32f0ff19-5b67-4ee1-a1db-f609cf63bc1a">
+          <AttributeID>generated attribute 6</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="997e9184-ca30-4ce9-a791-107ec32fd799">
+          <HierarchyID>Item</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="1f59f9a5-63fd-47aa-ac5c-dd8bbe6218c1">
+      <ID>Natureza</ID>
+      <Name>Natureza</Name>
+      <DimensionID>Natureza</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b1354951-fc95-4765-8ccf-c46f1a037895">
+          <AttributeID>Grupo attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="da083415-6df9-4632-a224-df9dce590403">
+          <AttributeID>Classe attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="0bfa7afb-1232-43f7-beb4-dc007be94694">
+          <AttributeID>Natureza attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="848747da-5596-4e76-857c-ecaf6514df5a">
+          <AttributeID>generated attribute 2</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e5eb19ff-f2a6-4b03-b6da-9f9936b7e5de">
+          <HierarchyID>Natureza</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="f2fd9589-27e5-43d3-920d-3cf17e5c0874">
+      <ID>Período Ajuste</ID>
+      <Name>Período Ajuste</Name>
+      <DimensionID>Período Ajuste</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1b1c4857-4b1b-4524-bade-67f4c0182d93">
+          <AttributeID>Dia Ajuste attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="1d3140ca-75d2-4663-9cc1-da49cc855f51">
+          <AttributeID>Mês Ajuste attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e0b5559-2868-41e8-bf48-d4fdfe92510c">
+          <AttributeID>Ano Ajuste attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e80924a1-d8ed-4970-8128-629751e19c33">
+          <HierarchyID>Período Ajuste</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="68ef096f-f16e-40df-b072-61910e869a77">
+      <ID>Tipo Ajuste</ID>
+      <Name>Tipo Ajuste</Name>
+      <DimensionID>Tipo Ajuste</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="455fc1b5-4a77-46e3-801a-64a309566755">
+          <AttributeID>Tipo Ajuste attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="f47fb85e-59d3-43cf-9601-746a3d91e0d4">
+          <AttributeID>cd_tipo_ajuste</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="0bbf187f-25b8-4532-bd67-f4f97f984640">
+      <ID>Processo</ID>
+      <Name>Processo</Name>
+      <DimensionID>Processo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ab37eca9-684e-44b2-9b9a-e0c82c40dee4">
+          <AttributeID>Nr Processo attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="41becfca-6c0d-455c-85f7-8b6d709c2109">
+          <HierarchyID>Processo</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="1f65eff7-accb-4613-9f64-8635ea6c7fc7">
+      <ID>Unidade Origem Código</ID>
+      <Name>Unidade Origem Código</Name>
+      <DimensionID>Unidade Origem Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="de2cf3bd-59a4-46d8-be3e-581c4444509f">
+          <AttributeID>Seção Origem attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a265bfa-c2fb-48ad-a9b0-8046f54647cf">
+          <AttributeID>Unidade Origem attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="499ab463-7067-46f9-a0ef-3a1bb5da54e8">
+          <AttributeID>Órgão Origem attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="0092020b-ca8a-4ad1-8978-e418a8aef45d">
+          <AttributeID>generated attribute 3</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a1e3f28c-d26c-4d6b-81d5-90120e2a810e">
+          <HierarchyID>Unidade Origem Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="00ce7873-6ae2-482d-90f2-24dcb6b25ab5">
+      <ID>Item Código</ID>
+      <Name>Item Código</Name>
+      <DimensionID>Item Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9a8a5322-bddb-478a-b8c0-f3520cb6715d">
+          <AttributeID>Status attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="05c976c2-96ec-48b3-9b61-2e400b4530ba">
+          <AttributeID>Item attribute 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fa897ef-033c-4cd4-8062-c9565c4a0c92">
+          <AttributeID>Grupo attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="2eba7ced-3479-4893-be6b-0b93ff6d056c">
+          <AttributeID>Classe attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="a894739e-7233-40f5-8497-96924536c589">
+          <AttributeID>Natureza attribute</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="2600a038-ed1f-40cb-8199-edd60fb0ac5b">
+          <AttributeID>generated attribute 4</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="11532949-4814-46bd-8e15-cf82d670d864">
+          <AttributeID>generated attribute 11</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e4598123-b304-4906-8597-0bd0fa31d032">
+          <HierarchyID>Item Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+    <Dimension dwd:design-time-name="49a25290-9eea-4c71-abc3-faf8b712374d">
+      <ID>Natureza Código</ID>
+      <Name>Natureza Código</Name>
+      <DimensionID>Natureza Código</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="751eaa6c-84e1-4799-a409-a6ac7fa843e0">
+          <AttributeID>Grupo attribute 2</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a9d67b7-886f-49b4-bb9a-82d41b2903d8">
+          <AttributeID>Classe attribute 2</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="b93efcc8-3dde-4025-959f-2c881000015f">
+          <AttributeID>Natureza attribute 2</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="074ee0e6-3e5e-4610-aab2-c2a4495adb60">
+          <AttributeID>generated attribute 5</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="25db0d17-a963-4fe8-b23a-e7fc831a85d8">
+          <HierarchyID>Natureza Código</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+      <HierarchyUniqueNameStyle>ExcludeDimensionName</HierarchyUniqueNameStyle>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="f2fb8060-5660-4384-abac-8e4fff58f59a">
+      <ID>CONTAS02</ID>
+      <Name>CONTAS02</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.353333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.353333Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>CONTAS02</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="2776e919-df18-427f-8989-f34ef659c372">
+      <ID>PRODAM</ID>
+      <Name>PRODAM</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.4Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.4Z</LastSchemaUpdate>
+      <RoleID>PRODAM</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="be9120e5-65d5-4653-86d5-f6c3bdbd2055">
+      <ID>SAR</ID>
+      <Name>SAR</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.43Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.43Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SAR</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="21b04961-58f2-4495-aa7b-d40b9dc1cc95">
+      <ID>SAS</ID>
+      <Name>SAS</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.443333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.443333Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SAS</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="96cf2432-fa9b-44ee-b3a3-84761a5bd189">
+      <ID>SF</ID>
+      <Name>SF</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.476667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.476667Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SF</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="d8a25ef1-4504-452f-a259-53acf27e5d22">
+      <ID>SGP</ID>
+      <Name>SGP</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.506667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.506667Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SGP</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="66f7028a-008b-4b8a-80ad-92ee58686a87">
+      <ID>SME</ID>
+      <Name>SME</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.54Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.54Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SME</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="4b49b5b3-bf9a-4546-a128-08853911f094">
+      <ID>SMS</ID>
+      <Name>SMS</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.57Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.57Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SMS</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="893ef4bc-4064-489f-b0b2-8611f3bac2fc">
+      <ID>SMT</ID>
+      <Name>SMT</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.603333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.603333Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SMT</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="cff72f9a-0aa4-4b8b-82dc-8a92b80ee5f0">
+      <ID>SNJ</ID>
+      <Name>SNJ</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.633333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.633333Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SNJ</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="f240809a-bdd1-4251-a6f5-48525dc4a82f">
+      <ID>SSO</ID>
+      <Name>SSO</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.68Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.68Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SSO</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="bb2aee40-b723-4fb8-bff5-9c0f4c81fbe7">
+      <ID>SVP</ID>
+      <Name>SVP</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.71Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.71Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>SVP</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="5de51e08-7675-4073-a5b1-8399dd02e60e">
+      <ID>copia SMS</ID>
+      <Name>copia SMS</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.743333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.743333Z</LastSchemaUpdate>
+      <Description>Usuarios que possuem acesso aos cubos.</Description>
+      <RoleID>copia SMS</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="03baa69a-c7ba-4cc8-9578-1a93b35d425c">
+      <ID>SMTRAB</ID>
+      <Name>SMTRAB</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.773333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.773333Z</LastSchemaUpdate>
+      <Description>Usuários da Secretaria Municipal do Trabalho</Description>
+      <RoleID>SMTRAB</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8ec7c24f-a163-4c58-95d7-067bdde56a08">
+      <ID>Ajuste Ativo</ID>
+      <Name>Ajuste Ativo</Name>
+      <CreatedTimestamp>2013-11-28T12:36:10.32Z</CreatedTimestamp>
+      <LastSchemaUpdate>2013-11-28T12:36:10.32Z</LastSchemaUpdate>
+      <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7d4ba4d1-fc98-4ec6-a248-e58b8a679258">
+          <ID>Qt Ajuste</ID>
+          <Name>Qt Ajuste</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="2f36d78b-d9ba-4983-bafe-3b7c587ce763">
+            <DataType>Double</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="c9c52f18-96e0-40dc-b95b-0f98edc375d2">
+              <MeasureID>Qt Ajuste</MeasureID>
+            </Source>
+          </Source>
+          <FormatString>Standard</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="25346dbf-8b62-4bf7-abb3-2148f41f9a1a">
+          <ID>Vl Ajuste</ID>
+          <Name>Vl Ajuste</Name>
+          <DataType>Currency</DataType>
+          <Source dwd:design-time-name="912b8aa7-890d-4118-8607-2ccb74ee3609">
+            <DataType>Currency</DataType>
+            <Source xsi:type="MeasureBinding" dwd:design-time-name="559366ec-6689-44c6-8362-87c4af7e3c4a">
+              <MeasureID>Vl Ajuste</MeasureID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="6ac475ce-e5ea-4efb-8af4-deeb0e462ae2">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>Ajuste Ativo</CubeID>
+        <MeasureGroupID>Ajuste Ativo</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <IgnoreUnrelatedDimensions>false</IgnoreUnrelatedDimensions>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6e03404b-277d-43af-a985-913e7c0497f6">
+          <CubeDimensionID>Unidade Origem</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="95b754d6-44c5-4405-8780-12b945f60fb7">
+              <AttributeID>Seção Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fcf75dc8-2eb3-49bb-b8ec-873432c69969">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a13fc651-78df-4c52-bb2a-b893b2fd685e">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>nm_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="778dced8-1506-4a2a-9f96-d8daa1e43035">
+              <AttributeID>Unidade Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="79512bc8-996d-4902-ad42-63a6bd376baa">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b347e7b-40ca-4b36-bc11-63cd5d174df3">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>nm_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="214a0a2a-e20b-4603-a3c7-776c4a0c76c4">
+              <AttributeID>Órgão Origem attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e0ccc814-f6e1-4aa1-ab90-a1c5a6d4b912">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92df7906-0a42-44e2-8af8-887ed94c10d0">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>mn_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="75565334-10b9-44a1-81fd-60c2348999c0">
+              <AttributeID>generated attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="75245b57-97c9-4642-bc3f-3f088e9a2f90">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c4ff7159-5d45-476b-8b3f-a7c1aafb09bc">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="eb60d1e0-5e27-4fa6-b3fe-3e2342c71810">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ca133996-c84e-4222-851a-4adc21ea4c08">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2c6ac7a0-9fc8-47df-a07f-317ed9650adf">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="be193de8-e088-4a52-b2f3-8378a42cd1c1">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_divisao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3c0630e8-2fc4-4be2-a3c2-cfa932294582">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2796a71f-4415-493e-b0af-1442e2ab9814">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="dd957756-30e6-4cbf-977a-f808a632bd66">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b15d9294-af24-4377-b2d8-a239d519827c">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_dac_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="33124a3f-c666-4385-8567-f63f915f2110">
+          <CubeDimensionID>Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d837f63e-dc15-4eca-8726-9c052b01e4b3">
+              <AttributeID>Status attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e411a87b-1fc1-4589-939a-1067eb3bca62">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b55cfba2-6073-4012-9d6a-4951df018ee9">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1870d402-796e-4fde-8779-2f6e0439322a">
+              <AttributeID>Item attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0caf78c2-cc8f-4c19-a7e5-7a5ca883686f">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13b9c332-0f06-467a-960b-ec55d3a5b64e">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>dc_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d1036242-33e6-471a-ad70-af457f5bc970">
+              <AttributeID>Início attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d075397-0500-4978-9ac3-909fc67ac215">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3ec83c39-2c01-4c71-9957-f0a610e2cc7b">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>Column1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="59ddc95e-10b1-43dd-9178-6034c47818cf">
+              <AttributeID>generated attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="82d02da5-fb14-49cb-a9f4-f2d04ef6d61e">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4d1b054f-efbc-4528-8c64-ff00a50a1707">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="eabafe23-575c-4ad7-b380-8be661cd9fb6">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0a46180c-3abe-4cc0-b212-9335e02ebcf6">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="89bfc39e-3929-4e1f-b197-27f467220eba">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="184dfabd-2f18-4a65-baf6-cba578892214">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4d184912-d939-4117-8abb-ed547ec257cb">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8992e6d7-b223-4b2a-9d48-5fa6945e02c9">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="7d1854b3-ae1c-4726-af1a-f81f15ab6efb">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="557d2bcc-2ee9-45fa-809a-6febb70a783b">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="6cd8af54-5f6c-4f5c-9e4a-08862ce8ab21">
+              <AttributeID>generated attribute 6</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="713f9566-f442-47dd-a9f3-536bd9ff14c7">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="056a6854-0b69-48ac-8009-9902f7066b20">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3698b307-cd37-4161-b9f2-8b347f0a8cf4">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a35202c8-ac17-47bc-ac6b-bfc7cea9273a">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a186ddc4-7e6d-47fe-97d8-bf026e8b8246">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="66209b7a-ac68-474a-80db-d565fc9aca1d">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b88deded-03af-4a82-9ffb-0b9b5147a5b1">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e18431b2-9e37-4997-98ec-52eca3d1bcb9">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d122a636-db9a-49da-a30b-b79d73323bf3">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b31bcbe4-247c-4ef4-9cb2-090ef04310c7">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="bfd74a4a-2620-4310-8862-5dd6234a5f86">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d4db576f-83d1-4bb6-9c35-2e0f18d3da59">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_dac_material</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e1b94d2-da03-4e80-9453-0fdf324e7404">
+          <CubeDimensionID>Natureza</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1b9dc0c2-aeb3-457e-a761-966b7d37a1a1">
+              <AttributeID>Grupo attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a886c2ef-cc62-48ac-8a88-59f9368fcaa7">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6526f91f-45c1-43a1-819c-5df9ef22006b">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>dc_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="854ab11f-390d-4bc4-a2d3-c715b6fc09c4">
+              <AttributeID>Classe attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="66bb2fc5-a735-457d-87ed-1d4a82545f60">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5a1ad97c-9de5-4d9d-851a-534a6e71c0a6">
+                    <TableID>dbo_classe</TableID>
+                    <ColumnID>dc_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7d1b1daf-7d27-4757-b7ab-48207409c1d5">
+              <AttributeID>Natureza attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="741d8149-3432-4579-bead-6d99de389dc8">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36a71745-1040-4d7c-a53a-7a6d7182a7a2">
+                    <TableID>dbo_natureza</TableID>
+                    <ColumnID>dc_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7102420f-c3a0-4c4f-a8a7-b979043e6926">
+              <AttributeID>generated attribute 2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4eb7f59b-a0c2-43d6-b490-0b4e6255e859">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2542756a-5e56-4e87-9a8e-7774cb320389">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="10576adf-adce-4650-8f30-1b9e7f2b19ed">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e60b8c49-eddb-425c-9ef0-9129f899e5b9">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5edce5e7-86d5-4fe2-a6e2-09cd34a2b57d">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="85f78913-01db-4640-bd63-319cb123649f">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bc95a08e-2351-4661-a390-488b595dbac7">
+          <CubeDimensionID>Período Ajuste</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="24f3de30-06a5-4707-a7ba-1877ad91433f">
+              <AttributeID>Dia Ajuste attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="31d1c8d7-0060-42e0-836f-f49ca82b7ee5">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1808b588-37e4-4d70-9e4c-5dd1a7c4d59d">
+                    <TableID>dbo_ajuste_fato</TableID>
+                    <ColumnID>Column4</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="020eb2d3-789f-44c5-b636-8d2d48d63cff">
+              <AttributeID>Mês Ajuste attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2b94a267-4474-43d9-aebe-09bed2143bd6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6da6af64-fada-4175-bf05-769f4a7be692">
+                    <TableID>dbo_ajuste_fato</TableID>
+                    <ColumnID>Column2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="11b863b3-67ff-4f45-a991-da813ae5885f">
+              <AttributeID>Ano Ajuste attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1bdbfd10-7599-494f-a343-69f0ea452b80">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0e8751b4-41e1-4bc0-9693-61a8878bbaf9">
+                    <TableID>dbo_ajuste_fato</TableID>
+                    <ColumnID>Column1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5c2d99be-d7ba-479c-8e88-732abf2deff2">
+          <CubeDimensionID>Tipo Ajuste</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4575ace4-a8db-4a44-90b5-2eea74fda190">
+              <AttributeID>Tipo Ajuste attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c7178464-4c3c-4df6-833f-cd044f006b84">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7d00b313-349f-42cd-9b28-12123d31da7a">
+                    <TableID>dbo_tipo_ajuste</TableID>
+                    <ColumnID>dc_tipo_ajuste</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="2959728e-d6b2-45bf-a832-6df92a492f21">
+              <AttributeID>cd_tipo_ajuste</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdef954b-8d47-4973-8fb5-67c7ad7573b9">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4565591f-3965-4af1-89e3-7ee2199ad8f5">
+                    <TableID>dbo_tipo_ajuste</TableID>
+                    <ColumnID>cd_tipo_ajuste</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e3f291f6-7e63-4515-9f19-1ff9f1e75fa4">
+          <CubeDimensionID>Processo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a6f393c5-0b43-4bc0-b0bb-1a005dd45191">
+              <AttributeID>Nr Processo attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dd213d09-0692-4781-abd3-5186b796c15d">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="27324f99-69e7-4a33-adf6-24330b1b8f44">
+                    <TableID>dbo_ajuste_fato</TableID>
+                    <ColumnID>nr_processo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ffeff54b-ca3e-4e97-9df5-94334d958b3b">
+          <CubeDimensionID>Unidade Origem Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="67a25d86-539b-4e4f-a475-c7aaf235ddb9">
+              <AttributeID>Seção Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8e1ef500-7fb9-4f0f-bbc5-009942c0bd07">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="22086b62-1e55-4726-9c09-593298ac9c72">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="565cfce1-f29a-436d-9c17-c0d87eafb4cf">
+              <AttributeID>Unidade Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b4245181-4dde-40a5-8582-8d4df5ba3981">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="79a31cba-69ce-4fda-9c33-f4bcc422384c">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ac0af945-a20d-4fa5-9ba6-da1121c14018">
+              <AttributeID>Órgão Origem attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e83ba2d8-bdc3-4b4d-be5d-9463227fb8f4">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b9a6d309-8784-48c5-8378-2e71ef6ad176">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="8b192516-e8fd-4f1d-93c1-defd489c78b6">
+              <AttributeID>generated attribute 3</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ac85c70d-7b55-4f55-88a0-e4ca7f6e4cbc">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="900ae370-d781-46a5-bd28-d0b27940195c">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_orgao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f95b9286-bf48-4d2e-a4ab-05764854e020">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c8a3146-b291-4f96-9171-e35c3a5d3639">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="43715c70-7b5f-46f7-8a34-aa41c79ba270">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="793bde16-cfaf-4a8c-95b1-25f96f15fb5e">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_divisao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a9159f03-1ef8-4929-a4cf-cc6bb978ae79">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac2d7251-92b7-4991-ae6a-6bfce700c63d">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_secao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="baac23f6-7a9d-4a30-b69f-5eaa210664be">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a4a26ffe-2ec2-4e44-9e01-aeb9c05e9d91">
+                    <TableID>dbo_v_unidade_origem</TableID>
+                    <ColumnID>cd_dac_unidade</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f7eff3a-38e3-4827-b408-913492f0e170">
+          <CubeDimensionID>Item Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4909ccdb-c254-46cf-abb3-c1efb04caa3d">
+              <AttributeID>Status attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="161c128f-efa8-4e18-ab50-fc0913218c8d">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab5ad924-b549-40fd-826d-6391ed0d6771">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="4f365014-f3fe-4c02-8e5e-ea531dce0b26">
+              <AttributeID>Item attribute 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dab0b2bb-68eb-4b4a-935c-6e9fc39afb17">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1b55ac25-e9c1-41c2-a5c9-a61a497d5c37">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1a480b07-01df-4bb7-bb2a-cb442d30e556">
+              <AttributeID>Grupo attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ccd306d9-0db9-4451-b9c9-acd758f1d2c1">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1c905a65-1525-44ca-b58a-2a640d6ac9f8">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="afe1a62d-832f-4c0a-8579-75bafd3073f0">
+              <AttributeID>Classe attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="05ecaa11-428e-48f1-9192-5676704c6fc9">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="361b49a6-224c-4fb4-9700-75c3c0da9528">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f4869837-fb86-440c-bfbd-8d0965062ac4">
+              <AttributeID>Natureza attribute</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cdd4ce05-7d27-4557-b802-b03f398ac289">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f3bd8b5d-32f6-454d-b412-d2ffd4fa2218">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c49fe0ff-c8e2-4416-bc65-3d530a60140f">
+              <AttributeID>generated attribute 4</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8d6f3b4a-3743-4b4e-a7bc-1cd1579bfd09">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a37021ff-fbd9-450c-9472-b55ac983cfd7">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="19163311-138a-47e6-bf82-921c0479c795">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="792a8668-155f-4d14-bfd7-f18912de8ec8">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3ec88613-66fc-4af3-97cb-33c88f4f2ab8">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86db78b8-fe1f-46a2-9132-185c9dc89910">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="29471076-b5c8-4af6-ad27-299a6b8380f5">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f3873289-f852-4752-b942-da5999568b7d">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="7d816390-d181-4bc0-b937-92204e4283f3">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cca96f89-14da-4360-b553-7c88c6608d94">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="4667c25a-52d4-47bc-96e6-c657c083ed2f">
+              <AttributeID>generated attribute 11</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4a952292-c841-446b-8d7e-79c4900a548b">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3cba3b34-0972-43a9-91a7-9601fce0af49">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_condicao</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="16ff4163-7ff9-4b97-bf12-4223d0daf539">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10f7f543-8641-4ba8-bccd-ca03ad085f8b">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="e5c1a8c6-dbac-4ab9-9699-13b0495d14d2">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10668d2a-f1e6-49e9-8f08-85d1d1044534">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a2c88840-87c7-4cb3-a71e-e053722e8530">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac6cde85-706b-4b04-86ba-956198d541c4">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b0e94cf1-bce5-49ae-917a-a4e3204430e0">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="219cf416-beb1-464a-979d-c03f1e8a330f">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_item</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="11373e2b-c72f-44a6-a63f-57137b0c09c4">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9430494f-73f9-4a94-9afc-0e439c733dbf">
+                    <TableID>dbo_item</TableID>
+                    <ColumnID>cd_dac_material</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fb0c3714-c2ce-433a-90ab-753c3143cfcf">
+          <CubeDimensionID>Natureza Código</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d86e0633-06f5-4cc4-826b-a3058c757d52">
+              <AttributeID>Grupo attribute 2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3b6f0041-dea9-46d1-a586-6d9fab46c82e">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fb5df769-e5c5-43a6-801e-52aac95acc7f">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>dc_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="bd0af992-9ae8-4061-9296-9bb857c83bd0">
+              <AttributeID>Classe attribute 2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3d9c02db-8f98-4fae-88df-c326a0b1ee39">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0b3758fd-1a06-427f-99ed-d39608d4af9d">
+                    <TableID>dbo_classe</TableID>
+                    <ColumnID>dc_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="0a7d05ce-741a-4f34-a01f-e5cffc22725e">
+              <AttributeID>Natureza attribute 2</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a2dfa71d-20f0-4052-b569-9f6a8a006cf1">
+                  <DataType>WChar</DataType>
+                  <DataSize>-1</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9748c61-86d5-4c5f-bcc1-d05bd2cb3773">
+                    <TableID>dbo_natureza</TableID>
+                    <ColumnID>dc_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="2a1395cd-d203-4262-b1dd-d50023dec4cc">
+              <AttributeID>generated attribute 5</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="042a7cf4-b051-4c2f-ab36-b8c4b1f940d5">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2dae7f0d-18a5-48de-b6db-a9d6610d04f9">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_natureza</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f874aa6a-f84b-4e4a-bf70-42fa2c47f6a3">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9dd44cdd-e65e-4a2c-9f1f-369029ed533e">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_classe</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4ca8c617-054f-4521-a803-06175aaac816">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="249fdbab-9c0c-4107-8050-b8b1fc2eeaf5">
+                    <TableID>dbo_grupo</TableID>
+                    <ColumnID>cd_grupo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <ProactiveCaching dwd:design-time-name="ecff1aaf-a8e1-45b5-97e7-1a5e420928de">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="fcc8abf8-df97-498e-bc0f-97c559c4c985" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <ProactiveCaching dwd:design-time-name="d402740c-d92e-44dd-b01e-78a2007a8367">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="11fbef5c-0526-4eed-9e8f-3bfc0db72314" />
+  </ProactiveCaching>
+</Cube>

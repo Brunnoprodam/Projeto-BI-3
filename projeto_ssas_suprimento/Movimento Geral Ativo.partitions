@@ -1,0 +1,38 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="540d1b5f-b897-4f21-a7a4-5b6fe66f70bf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Movimento Geral Ativo</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Movimento Geral Ativo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="37b725ac-ad4a-4d7e-a9ff-e0c9cba00aef">
+          <ID>Movimento Geral Ativo</ID>
+          <Name>Movimento Geral Ativo</Name>
+          <CreatedTimestamp>2013-11-28T12:36:08.196667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2013-11-28T12:36:08.196667Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="ee297767-5c5b-4493-b695-d014efb460d2">
+            <DataSourceID>DCPTLAB02 - DW_Suprimento</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>movimento_geral_fato</DbTableName>
+          </Source>
+          <AggregationPrefix>MovimentoGeralAtivo_MovimentoGeralAtivo_</AggregationPrefix>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ErrorConfiguration dwd:design-time-name="2c49ab82-a375-4a09-ba03-bf5a790297b6">
+            <KeyErrorLimit>-1</KeyErrorLimit>
+          </ErrorConfiguration>
+          <ProactiveCaching dwd:design-time-name="a9f89193-257f-4c9c-b27a-a6625a7f1584">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="daac6f9a-8af0-4714-86f3-98eddfafce5a" />
+          </ProactiveCaching>
+          <EstimatedRows>4223432</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,333 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6fdb3486-8f21-407e-bfd1-60c9b4e2c66a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Unidade Origem Código</ID>
+  <Name>Unidade Origem Código</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.18Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.18Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1819" scrolltop="-2963" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8334" y="10954" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_v_unidade_origem" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4154" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003a10000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_unidade_origem" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1819</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2963</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="154">
+            <Shape Id="generated attribute 3" Expanded="false">
+              <Attributes>
+                <Attribute Id="generated attribute 3" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Seção Origem attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Seção Origem attribute 1" />
+              </Attributes>
+              <Position x="217" y="20" />
+            </Shape>
+            <Shape Id="Unidade Origem attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Unidade Origem attribute 1" />
+              </Attributes>
+              <Position x="415" y="20" />
+            </Shape>
+            <Shape Id="Órgão Origem attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Órgão Origem attribute 1" />
+              </Attributes>
+              <Position x="612" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8e068f6a-668c-4ec0-b8cd-ae1c9896cefe">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="37f74893-616b-4450-900e-36fb741d5645">
+      <ID>Seção Origem attribute 1</ID>
+      <Name>Seção Origem</Name>
+      <EstimatedCount>10462</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="392b13d7-b59e-4477-8105-c05c26b94d3d">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e61b13a-4496-4121-9191-76569096dd00">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8a66d927-f817-4e29-9ed3-56613a31faec">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d9876a1-cbcb-4e13-881a-46bce17d9853">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3bb0f8e4-ae30-4d69-999b-4ab274c75f0d">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bf3ec8f-8db1-4932-965a-56c2d40b415d">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_divisao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3218eb09-ebfb-4136-ad2c-6c6372b7b5d9">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17bf1160-affd-4576-b0b0-f3eebdf05fe7">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_secao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ed1a4b0b-85b6-4853-beda-8d8e189782cf">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f13a0020-a34e-4e69-8a6b-bbd939a30f81">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_dac_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="702778e7-b838-4801-9949-1abf5a52bfcb">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f3289a43-5d3d-4d0e-bfd4-685d4241ca16">
+          <TableID>dbo_v_unidade_origem</TableID>
+          <ColumnID>nm_secao_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1f8ab09a-51fa-413a-853d-2bf0261cdd92">
+          <AttributeID>Unidade Origem attribute 1</AttributeID>
+          <Name>Unidade Origem</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="14512120-9786-45eb-b1c5-86a0b7b33128">
+      <ID>Unidade Origem attribute 1</ID>
+      <Name>Unidade Origem</Name>
+      <EstimatedCount>192</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26b6c433-1ca7-4c01-ac22-e34b05cbd11f">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01702f81-04cb-4a28-8fab-9d389f4998fb">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9f96bffa-72c5-4dbf-a124-4af03f3730e3">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09c8c9c5-eca0-4d39-ab5a-5413374bcbff">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="19f5db69-4e8c-4717-80cf-2554e3903e25">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="855f14b8-3f7d-4ea8-8eb3-8f12535e183e">
+          <TableID>dbo_v_unidade_origem</TableID>
+          <ColumnID>nm_unidade_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7c21b78e-c048-42a6-b378-f4d871ec9444">
+          <AttributeID>Órgão Origem attribute 1</AttributeID>
+          <Name>Órgão Origem</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c28bedc9-dac4-4e87-85c6-38471c334f83">
+      <ID>Órgão Origem attribute 1</ID>
+      <Name>Órgão Origem</Name>
+      <EstimatedCount>39</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07250e10-f398-4563-a22f-a38c96992636">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cfaf3d41-b6a8-4e65-b78f-fccd20c9df6f">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d81b3400-294c-4aac-a723-02beeb0eb12a">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0a9027ac-ae3d-4e59-ace9-52d7e0658b25">
+          <TableID>dbo_v_unidade_origem</TableID>
+          <ColumnID>nm_orgao_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02af7cfc-6b23-4928-8748-7e458de253bf">
+      <ID>generated attribute 3</ID>
+      <Name>Código Unidade Origem</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c60b7782-1c04-440f-9b50-790f79e62c91">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd6390da-682f-4e61-8092-eba1315c588f">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c5e54e2e-6f00-4b75-b634-7d05d014981b">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b019b74a-d9a1-4964-9912-fbc4e616df5b">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d372d3c6-ff98-4bd8-82c7-72a7859081c0">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4346fba8-d334-40ad-beb6-af4e3b7b0cb1">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_divisao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="4a4b20b7-ce08-4843-9826-bb6f2121ba3f">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e6231e1-5688-445d-8aea-43dc421bccab">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_secao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2d5d76c4-7c45-4f3f-b57f-c60bfaf464a5">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b312b40-411d-43c1-8648-a1902f733683">
+            <TableID>dbo_v_unidade_origem</TableID>
+            <ColumnID>cd_dac_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8aeba1ee-0021-4b8c-aa6b-bd32a1de8636">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ae00e292-aead-4e89-9bc0-4219cd544fcb">
+          <TableID>dbo_v_unidade_origem</TableID>
+          <ColumnID>cd_secao</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0c8221ed-6ec0-46a2-a4ec-8bfa325e4ac9">
+          <AttributeID>Seção Origem attribute 1</AttributeID>
+          <Name>Seção Origem</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todas</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d2af3ee9-57a9-4e04-b605-eae4bf4cc59c">
+      <ID>Unidade Origem Código</ID>
+      <Name>Unidade Origem Código</Name>
+      <AllMemberName>Todas</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level dwd:design-time-name="50b52c1e-ea24-41fc-a397-ce9fae7ab48b">
+          <ID>Órgão Origem</ID>
+          <Name>Órgão Origem</Name>
+          <SourceAttributeID>Órgão Origem attribute 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="32bfdf2f-a293-4e07-8799-ae2261aa0a15">
+          <ID>Unidade Origem</ID>
+          <Name>Unidade Origem</Name>
+          <SourceAttributeID>Unidade Origem attribute 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2de0d2bb-6c16-446e-b0e0-b79f6db4015a">
+          <ID>Seção Origem</ID>
+          <Name>Seção Origem</Name>
+          <SourceAttributeID>Seção Origem attribute 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="a099aee2-77c1-4146-921d-3aca1e527cd7">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="27909b85-c105-4246-8fa2-a40d6436d65f" />
+  </ProactiveCaching>
+</Dimension>

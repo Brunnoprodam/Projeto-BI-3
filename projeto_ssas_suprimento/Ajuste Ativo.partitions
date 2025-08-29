@@ -1,0 +1,38 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="504a775e-4688-4e41-86a6-8b9322f16aa6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Ajuste Ativo</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Ajuste Ativo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="232f6fdc-df96-4a24-b028-a81bf9998dab">
+          <ID>Ajuste Ativo</ID>
+          <Name>Ajuste Ativo</Name>
+          <CreatedTimestamp>2013-11-28T12:35:58.726667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2013-11-28T12:35:58.726667Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="6fc42c28-ccec-4fe8-836b-15a91ba5e94e">
+            <DataSourceID>DCPTLAB02 - DW_Suprimento</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>ajuste_fato</DbTableName>
+          </Source>
+          <AggregationPrefix>AjusteAtivo_AjusteAtivo_</AggregationPrefix>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ErrorConfiguration dwd:design-time-name="dc85eacb-fe02-40ff-8612-2d3e6795f0b4">
+            <KeyErrorLimit>-1</KeyErrorLimit>
+          </ErrorConfiguration>
+          <ProactiveCaching dwd:design-time-name="b2364185-7141-4edb-8e7a-9d4de310e7ce">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="b9ce00da-1f0b-4da6-b175-6038e5ebe81b" />
+          </ProactiveCaching>
+          <EstimatedRows>32617</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

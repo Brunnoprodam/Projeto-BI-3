@@ -1,0 +1,1872 @@
+<?xml version="1.0"?><DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts" DTS:ExecutableType="SSIS.Package.2">
+<DTS:Property DTS:Name="PackageFormatVersion">3</DTS:Property>
+<DTS:Property DTS:Name="VersionComments"></DTS:Property>
+<DTS:Property DTS:Name="CreatorName">REDE\p016886</DTS:Property>
+<DTS:Property DTS:Name="CreatorComputerName">PRODAMBFC111725</DTS:Property>
+<DTS:Property DTS:Name="CreationDate" DTS:DataType="7">12/2/2013 10:18:49 AM</DTS:Property>
+<DTS:Property DTS:Name="PackageType">0</DTS:Property>
+<DTS:Property DTS:Name="ProtectionLevel">1</DTS:Property>
+<DTS:Property DTS:Name="MaxConcurrentExecutables">-1</DTS:Property>
+<DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
+<DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
+<DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">0</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{44F4AF0A-D52B-470E-9C3B-CD0F96694CD5}</DTS:Property>
+<DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
+<DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointUsage">0</DTS:Property>
+<DTS:Property DTS:Name="SuppressConfigurationWarnings">0</DTS:Property>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_1</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{3CE78CAD-F483-48A2-B79C-193C3E3EDB82}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela natureza</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\NATUR.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_10</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{557F1635-C7D7-45E4-90A5-525FA408C5BA}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela movimento_geral_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\fato.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_11</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B1A03874-05E9-425C-BE9A-0103ED93BFB4}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela ajuste_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\ajustes.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_12</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B66BED4F-A2B2-499A-83CF-4AEBD6C4993E}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela movimento_especifico_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\moviesp.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_14</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2BD06951-97D2-484A-8E4E-602278AD7238}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela quota_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\quotas.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_2</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{47799E47-5254-4DFE-9C85-825A36630DB3}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela classe</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\CLASSE.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_3</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2F8D7BD3-2574-49A7-954B-E1D6A2BFEC23}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela grupo</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\GRUPO.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_4</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{8216C185-3030-4749-9D87-2B35FCDF9B52}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela item</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\MATERIAL.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_5</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{266CCD25-811E-4832-82B3-A994FBD3312F}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela orgao</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\SECR.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_6</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{21E8EA23-9569-497E-8F33-662F0CC2F5C2}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela unidade</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\UNOR.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_7</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7021B0AB-4D24-49F1-9B31-AC452BC3FC5A}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela secao</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\UNIDADES.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_8</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A87ACB22-92E4-43C9-A23D-343F9301E5E4}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela fornecedor_todos</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\FORNEC.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DTSTask_DTSBulkInsertTask_9</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{529124C7-58F2-428C-A6E2-933E39B6672E}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela saldo_estoque_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">FILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">\\cprodamibs26\sqldidet\sj101065\saldos.TXT</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">DW_Suprimento</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="Retain">0</DTS:Property>
+<DTS:Property DTS:Name="ConnectionString">Data Source=c64s197i\prd;Initial Catalog=dw_suprimento;Provider=SQLOLEDB;Integrated Security=SSPI;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="LastModifiedProductVersion">10.50.2500.0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">1046</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ActiveXScriptTask.ActiveXScriptTask, Microsoft.SqlServer.ActiveXScriptTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">ActiveX Script Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Testar a existencia do arquivo   cprodamibs26 sqldidet sj101065 FATO TXT</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FD0900BE-48AF-4CEC-98CB-64C8B68C0D48}</DTS:Property>
+<DTS:Property DTS:Name="Description">Testar a existencia do arquivo   cprodamibs26 sqldidet sj101065 FATO TXT</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ActiveXScriptTask.ActiveXScriptTask, Microsoft.SqlServer.ActiveXScriptTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ActiveXScriptTask:ActiveXScriptTaskData ActiveXScriptTask:ScriptingLanguage="VBScript" ActiveXScriptTask:ScriptText="'**********************************************************************&#xA;'  Visual Basic ActiveX Script&#xA;'************************************************************************&#xA;&#xA;Function Main()&#xA;&#xA;&#xA;Set objFSO = CreateObject(&quot;Scripting.FileSystemObject&quot;)&#xA;If objFSO.FileExists(&quot;\\cprodamibs26\sqldidet\sj101065\FATO.TXT&quot;) Then&#xA;    Main = DTSTaskExecResult_Success&#xA;Else&#xA;    Main =DTSTaskExecResult_Failure&#xA;End If&#xA;&#xA;	&#xA;End Function&#xA;" ActiveXScriptTask:EntryMethod="Main" xmlns:ActiveXScriptTask="www.microsoft.com/sqlserver/dts/tasks/activexscripttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">drop fk</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C9ABEB33-D677-4443-A879-55BEF5F905B1}</DTS:Property>
+<DTS:Property DTS:Name="Description">drop fk</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_grupo_classe]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[grupo] DROP CONSTRAINT FK_grupo_classe&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_geral_fato_fornecedor]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[movimento_geral_fato] DROP CONSTRAINT FK_movimento_geral_fato_fornecedor&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_item_grupo]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[item] DROP CONSTRAINT FK_item_grupo&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_ajuste_fato_item]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[ajuste_fato] DROP CONSTRAINT FK_ajuste_fato_item&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_geral_fato_item]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[movimento_geral_fato] DROP CONSTRAINT FK_movimento_geral_fato_item&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_quota_fato_item]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[quota_fato] DROP CONSTRAINT FK_quota_fato_item&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_saldo_estoque_fato_item]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[saldo_estoque_fato] DROP CONSTRAINT FK_saldo_estoque_fato_item&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_classe_natureza]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[classe] DROP CONSTRAINT FK_classe_natureza&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_unidade_orgao]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[unidade] DROP CONSTRAINT FK_unidade_orgao&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_ajuste_fato_secao]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[ajuste_fato] DROP CONSTRAINT FK_ajuste_fato_secao&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_geral_fato_secao]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[movimento_geral_fato] DROP CONSTRAINT FK_movimento_geral_fato_secao&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_geral_fato_secao_destino]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[movimento_geral_fato] DROP CONSTRAINT FK_movimento_geral_fato_secao_destino&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_quota_fato_secao_destino]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[quota_fato] DROP CONSTRAINT FK_quota_fato_secao_destino&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_quota_fato_secao_origem]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[quota_fato] DROP CONSTRAINT FK_quota_fato_secao_origem&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_saldo_estoque_fato_secao]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[saldo_estoque_fato] DROP CONSTRAINT FK_saldo_estoque_fato_secao&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_ajuste_fato_tipo_ajuste]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[ajuste_fato] DROP CONSTRAINT FK_ajuste_fato_tipo_ajuste&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_geral_fato_tipo_documento]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[movimento_geral_fato] DROP CONSTRAINT FK_movimento_geral_fato_tipo_documento&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_quota_fato_tipo_quota]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[quota_fato] DROP CONSTRAINT FK_quota_fato_tipo_quota&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_secao_unidade]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE [dbo].[secao] DROP CONSTRAINT FK_secao_unidade&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_tipo_documento]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_tipo_documento&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_fornecedor]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_fornecedor&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_item]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_item&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_secao_origem]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_secao_origem&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_secao_destino]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_secao_destino&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_secao_suprimento]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_secao_suprimento&#xA;GO&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_secao]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_secao&#xA;GO&#xA;&#xA;&#xA;if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[FK_movimento_especifico_fato_secao1]') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)&#xA;ALTER TABLE dbo.movimento_especifico_fato&#xA;	DROP CONSTRAINT FK_movimento_especifico_fato_secao1&#xA;GO&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">drop tables</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F5E3CD07-7456-42E5-AE15-A030FEA5F1D3}</DTS:Property>
+<DTS:Property DTS:Name="Description">drop tables</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="drop table [dbo].[quota_fato]&#xA;go&#xA;&#xA;drop table [dbo].[ajuste_fato]&#xA;go&#xA;&#xA;drop table [dbo].[classe]&#xA;GO&#xA;&#xA;drop table [dbo].[fornecedor_todos]&#xA;GO&#xA;&#xA;drop table [dbo].[grupo]&#xA;GO&#xA;&#xA;drop table [dbo].[item]&#xA;GO&#xA;&#xA;drop table [dbo].[natureza]&#xA;GO&#xA;&#xA;drop table [dbo].[orgao]&#xA;GO&#xA;&#xA;drop table [dbo].[secao]&#xA;GO&#xA;&#xA;drop table [dbo].[unidade]&#xA;GO&#xA;&#xA;drop table [dbo].[movimento_geral_fato]&#xA;GO&#xA;&#xA;drop table [dbo].[saldo_estoque_fato]&#xA;GO&#xA;&#xA;drop table compra_fato&#xA;go&#xA;&#xA;drop table fornecimento_material_fato&#xA;go&#xA;&#xA;drop TABLE [movimento_especifico_fato]&#xA;go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">create tables</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2DAF2D5D-99F6-44A7-B4CB-5A2C53FB212C}</DTS:Property>
+<DTS:Property DTS:Name="Description">create tables</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="CREATE TABLE [quota_fato] (&#xA;	[cd_tipo_quota] [char] (1) NOT NULL ,&#xA;	[cd_orgao_origem] [char] (2) NOT NULL ,&#xA;	[cd_unidade_origem] [char] (2) NOT NULL ,&#xA;	[cd_divisao_origem] [char] (2) NOT NULL ,&#xA;	[cd_secao_origem] [char] (3) NOT NULL ,&#xA;	[cd_dac_unidade_origem] [char] (1) NOT NULL ,&#xA;	[cd_orgao_destino] [char] (2) NULL ,&#xA;	[cd_unidade_destino] [char] (2) NULL ,&#xA;	[cd_divisao_destino] [char] (2) NULL ,&#xA;	[cd_secao_destino] [char] (3) NULL ,&#xA;	[cd_dac_unidade_destino] [char] (1) NULL ,&#xA;             [cd_condicao] [char] (2) NOT NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[cd_item] [char] (4) NOT NULL ,&#xA;	[cd_dac_material] [char] (1) NOT NULL ,&#xA;             [pr_ano_quota] [char] (4) NOT NULL,&#xA;	[vl_quota_total] [money] NOT NULL ,&#xA;	[vl_quota_suplementada] [money] NOT NULL ,&#xA;	[vl_quota_anual] [money] NOT NULL ,&#xA;	[vl_consumo_total] [money] NOT NULL ,&#xA;	[vl_consumo_quota_extra] [money] NOT NULL ,&#xA;	[qt_requisitada] [float] NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [ajuste_fato] (&#xA;	[cd_tipo_ajuste] [char] (2) NOT NULL ,&#xA;	[cd_orgao_origem] [char] (2) NOT NULL ,&#xA;	[cd_unidade_origem] [char] (2) NOT NULL ,&#xA;	[cd_divisao_origem] [char] (2) NOT NULL ,&#xA;	[cd_secao_origem] [char] (3) NOT NULL ,&#xA;	[cd_dac_unidade_origem] [char] (1) NOT NULL ,&#xA;	[cd_condicao] [char] (2) NOT NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[cd_item] [char] (4) NOT NULL ,&#xA;	[cd_dac_material] [char] (1) NOT NULL ,&#xA;	[dt_movimento_ajuste] [datetime] NOT NULL ,&#xA;	[qt_movimento_ajuste] [float] NOT NULL ,&#xA;	[vl_movimento_ajuste] [money] NOT NULL ,&#xA;	[qt_sinal] [char] (1) NULL ,&#xA;	[vl_sinal] [char] (1) NULL ,&#xA;	[nr_processo] [char] (12) NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[classe] (&#xA;	[filler1] [char] (2) NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[filler2] [char] (2) NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[filler3] [char] (1) NULL ,&#xA;	[dc_classe] [varchar] (120) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE [dbo].[fornecedor_todos] (&#xA;	[nr_cnpj_fornecedor] [char] (15) NOT NULL ,&#xA;	[dc_fornecedor] [varchar] (60) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE [dbo].[grupo] (&#xA;	[filler1] [char] (2) NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[filler2] [char] (2) NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[filler3] [char] (2) NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[filler4] [char] (1) NULL ,&#xA;	[dc_grupo] [varchar] (120) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE [dbo].[item] (&#xA;	[filler1] [char] (2) NULL ,&#xA;	[cd_condicao] [char] (2) NOT NULL ,&#xA;	[filler2] [char] (2) NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[filler3] [char] (2) NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[filler4] [char] (2) NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[filler5] [char] (2) NULL ,&#xA;	[cd_item] [char] (4) NOT NULL ,&#xA;	[filler6] [char] (2) NULL ,&#xA;	[cd_dac_material] [char] (1) NOT NULL ,&#xA;	[filler7] [char] (1) NULL ,&#xA;	[dc_unidade] [char] (3) NULL ,&#xA;	[filler8] [char] (1) NULL ,&#xA;	[dc_item] [varchar] (120) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE [dbo].[movimento_geral_fato] (&#xA;	[cd_documento] [char] (2) NOT NULL ,&#xA;	[cd_orgao_origem] [char] (2) NOT NULL ,&#xA;	[cd_unidade_origem] [char] (2) NOT NULL ,&#xA;	[cd_divisao_origem] [char] (2) NOT NULL ,&#xA;	[cd_secao_origem] [char] (3) NOT NULL ,&#xA;	[cd_dac_unidade_origem] [char] (1) NOT NULL ,&#xA;	[cd_condicao] [char] (2) NOT NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[cd_item] [char] (4) NOT NULL ,&#xA;	[cd_dac_material] [char] (1) NOT NULL ,&#xA;	[dt_movimento] [datetime] NOT NULL ,&#xA;	[qt_movimento] [float] NOT NULL ,&#xA;	[vl_movimento] [money] NOT NULL ,&#xA;	[cd_orgao_destino] [char] (2) NULL ,&#xA;	[cd_unidade_destino] [char] (2) NULL ,&#xA;	[cd_divisao_destino] [char] (2) NULL ,&#xA;	[cd_secao_destino] [char] (3) NULL ,&#xA;	[cd_dac_unidade_destino] [char] (1) NULL ,&#xA;	[nr_cnpj_fornecedor] [char] (15) NULL ,&#xA;	[cd_orgao_suprimento] [char] (2) NULL ,&#xA;	[cd_unidade_suprimento] [char] (2) NULL ,&#xA;	[cd_divisao_suprimento] [char] (2) NULL ,&#xA;	[cd_secao_suprimento] [char] (3) NULL ,&#xA;	[cd_dac_unidade_suprimento] [char] (1) NULL ,&#xA;	[qt_sinal] [char] (1) NULL ,&#xA;	[vl_sinal] [char] (1) NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[natureza] (&#xA;	[filler1] [char] (2) NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[filler2] [char] (1) NULL ,&#xA;	[dc_natureza] [varchar] (120) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;&#xA;CREATE TABLE [dbo].[orgao] (&#xA;	[cd_orgao] [char] (2) NOT NULL ,&#xA;	[mn_orgao] [varchar] (55) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [saldo_estoque_fato] (&#xA;	[cd_orgao] [char] (2) NOT NULL ,&#xA;	[cd_unidade] [char] (2) NOT NULL ,&#xA;	[cd_divisao] [char] (2) NOT NULL ,&#xA;	[cd_secao] [char] (3) NOT NULL ,&#xA;	[cd_dac_unidade] [char] (1) NOT NULL ,&#xA;	[cd_condicao] [char] (2) NOT NULL ,&#xA;	[cd_natureza] [char] (3) NOT NULL ,&#xA;	[cd_classe] [char] (3) NOT NULL ,&#xA;	[cd_grupo] [char] (3) NOT NULL ,&#xA;	[cd_item] [char] (4) NOT NULL ,&#xA;	[cd_dac_material] [char] (1) NOT NULL ,&#xA;	[dt_estoque] [datetime] NOT NULL ,&#xA;	[qt_estoque] [float] NOT NULL ,&#xA;	[vl_estoque] [money] NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[secao] (&#xA;	[cd_orgao] [char] (2) NOT NULL ,&#xA;	[cd_unidade] [char] (2) NOT NULL ,&#xA;	[cd_divisao] [char] (2) NOT NULL ,&#xA;	[cd_secao] [char] (3) NOT NULL ,&#xA;	[cd_dac_unidade] [char] (1) NOT NULL ,&#xA;	[nm_secao] [varchar] (55) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [dbo].[unidade] (&#xA;	[cd_orgao] [char] (2) NOT NULL ,&#xA;	[cd_unidade] [char] (2) NOT NULL ,&#xA;	[nm_unidade] [varchar] (55) NOT NULL &#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE TABLE [movimento_especifico_fato] (&#xA;	[cd_documento] [char] (2)  NOT NULL ,&#xA;	[cd_orgao_origem] [char] (2)  NOT NULL ,&#xA;	[cd_unidade_origem] [char] (2)  NOT NULL ,&#xA;	[cd_divisao_origem] [char] (2)  NOT NULL ,&#xA;	[cd_secao_origem] [char] (3)  NOT NULL ,&#xA;	[cd_dac_unidade_origem] [char] (1)  NOT NULL ,&#xA;	[cd_condicao] [char] (2)  NOT NULL ,&#xA;	[cd_natureza] [char] (3)  NOT NULL ,&#xA;	[cd_classe] [char] (3)  NOT NULL ,&#xA;	[cd_grupo] [char] (3)  NOT NULL ,&#xA;	[cd_item] [char] (4)  NOT NULL ,&#xA;	[cd_dac_material] [char] (1)  NOT NULL ,&#xA;	[dt_movimento] [datetime] NOT NULL ,&#xA;	[qt_movimento] [float] NOT NULL ,&#xA;	[vl_movimento] [money] NOT NULL ,&#xA;	[cd_orgao_destino] [char] (2)  NULL ,&#xA;	[cd_unidade_destino] [char] (2)  NULL ,&#xA;	[cd_divisao_destino] [char] (2)  NULL ,&#xA;	[cd_secao_destino] [char] (3)  NULL ,&#xA;	[cd_dac_unidade_destino] [char] (1)  NULL ,&#xA;	[nr_cnpj_fornecedor] [char] (15)  NULL ,&#xA;	[cd_orgao_suprimento] [char] (2)  NULL ,&#xA;	[cd_unidade_suprimento] [char] (2)  NULL ,&#xA;	[cd_divisao_suprimento] [char] (2)  NULL ,&#xA;	[cd_secao_suprimento] [char] (3)  NULL ,&#xA;	[cd_dac_unidade_suprimento] [char] (1)  NULL ,&#xA;	[qt_sinal] [char] (1)  NULL ,&#xA;	[vl_sinal] [char] (1)  NULL ,&#xA;	[qt_estoque] [float] NOT NULL ,&#xA;	[vl_estoque] [money] NOT NULL &#xA;) ON [PRIMARY]&#xA;GO" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela natureza</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{82D6C7B2-4840-41D4-B40A-7573EFBE7335}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela natureza</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{3CE78CAD-F483-48A2-B79C-193C3E3EDB82}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[natureza]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\natur.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela classe</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{DA011812-31C3-47EF-AC6B-A99CAE538687}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela classe</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{47799E47-5254-4DFE-9C85-825A36630DB3}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[classe]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\classe.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela grupo</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{E4400B84-9BD9-4AFE-806B-995AC04487B8}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela grupo</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{2F8D7BD3-2574-49A7-954B-E1D6A2BFEC23}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[grupo]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\grupo.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela item</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{EAE09930-8F51-4FD0-8F03-B9FA9AEBF928}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela item</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{8216C185-3030-4749-9D87-2B35FCDF9B52}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[item]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\material.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela orgao</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{66CAAD9B-32BE-4BBE-8244-0380F9A32A83}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela orgao</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{266CCD25-811E-4832-82B3-A994FBD3312F}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[orgao]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\secr.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela unidade</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{9FC6BF56-1CF5-4119-8B63-414A31E56FDC}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela unidade</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{21E8EA23-9569-497E-8F33-662F0CC2F5C2}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[DW_Suprimento].[dbo].[unidade]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\unor.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela secao</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{903E8D48-0F8F-48AF-95EB-C5710FF2F318}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela secao</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{7021B0AB-4D24-49F1-9B31-AC452BC3FC5A}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[DW_Suprimento].[dbo].[secao]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\unidades.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela fornecedor_todos</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{91B1E594-1D67-432E-89FE-015E87C5F4D1}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela fornecedor_todos</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="1000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{A87ACB22-92E4-43C9-A23D-343F9301E5E4}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[fornecedor_todos]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\fornec.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela saldo_estoque_fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{795133CB-A0E2-4C7A-B859-7EAD63D1817B}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela saldo_estoque_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="10000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{529124C7-58F2-428C-A6E2-933E39B6672E}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[saldo_estoque_fato]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\SALDOS.FMT" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela movimento_geral_fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5B556EC4-31FC-4D5A-A6BF-AE1D28203914}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela movimento_geral_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="10000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{557F1635-C7D7-45E4-90A5-525FA408C5BA}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[movimento_geral_fato]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\fato.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela quota_fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{90D49B9F-EF79-4C76-BFD4-82F522125D0E}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela quota_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="0" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{2BD06951-97D2-484A-8E4E-602278AD7238}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[quota_fato]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\quotas.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela ajuste_fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{33D14EA8-27EE-4E36-8E5C-960E1C08A10E}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela ajuste_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="0" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{B1A03874-05E9-425C-BE9A-0103ED93BFB4}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[ajuste_fato]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\ajustes.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact"></DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">tabela movimento_especifico_fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{09F4678B-344A-499D-801C-4D132FC65281}</DTS:Property>
+<DTS:Property DTS:Name="Description">tabela movimento_especifico_fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.BulkInsertTask.BulkInsertTask, Microsoft.SqlServer.BulkInsertTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><BulkInsertTask:BulkInsertTaskData BulkInsertTask:BatchSize="10000" BulkInsertTask:CheckConstraints="False" BulkInsertTask:CodePage="OEM" BulkInsertTask:SourceConnectionName="{B66BED4F-A2B2-499A-83CF-4AEBD6C4993E}" BulkInsertTask:DestinationConnectionName="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" BulkInsertTask:DataFileType="DTSBulkInsert_DataFileType_Char" BulkInsertTask:DestinationTableName="[dw_suprimento].[dbo].[movimento_especifico_fato]" BulkInsertTask:FirstRow="0" BulkInsertTask:LastRow="0" BulkInsertTask:UseFormatFile="True" BulkInsertTask:FormatFile="\\cprodamibs26\sqldidet\sj101065\moviesp.fmt" BulkInsertTask:SortedData="" BulkInsertTask:TableLock="True" BulkInsertTask:KeepIdentity="False" BulkInsertTask:KeepNulls="False" BulkInsertTask:FieldTerminator="\t" BulkInsertTask:RowTerminator="\n" BulkInsertTask:FireTriggers="False" BulkInsertTask:MaximumErrors="0" xmlns:BulkInsertTask="www.microsoft.com/sqlserver/dts/tasks/bulkinserttask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">update movimento especifico</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{939BF5C6-0463-4D20-8C53-9B0ACE857C51}</DTS:Property>
+<DTS:Property DTS:Name="Description">update movimento especifico</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="update movimento_especifico_fato&#xA;set qt_movimento = qt_movimento * -1&#xA;where qt_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;update movimento_especifico_fato&#xA;set vl_movimento = vl_movimento * -1&#xA;where vl_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;--backup log dw_suprimento with truncate_only&#xA;--go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">update movimento e ajuste</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{79BE167C-F509-437D-90FA-3D6A67D41D2E}</DTS:Property>
+<DTS:Property DTS:Name="Description">update movimento e ajuste</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="--update movimento_geral_fato&#xA;--set nr_cnpj_fornecedor = null&#xA;--where nr_cnpj_fornecedor = '000000000000000'&#xA;--go&#xA;&#xA;--checkpoint&#xA;--go&#xA;&#xA;update movimento_geral_fato&#xA;set qt_movimento = qt_movimento * -1&#xA;where qt_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;update movimento_geral_fato&#xA;set vl_movimento = vl_movimento * -1&#xA;where vl_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;--update movimento_geral_fato&#xA;--set&#xA;--cd_orgao_destino = null,&#xA;--cd_unidade_destino = null,&#xA;--cd_divisao_destino = null,&#xA;--cd_secao_destino = null,&#xA;--cd_dac_unidade_destino = null&#xA;--where&#xA;--cd_orgao_destino = '00' and &#xA;--cd_unidade_destino = '00' and&#xA;--cd_divisao_destino = '00' and&#xA;--cd_secao_destino = '000' and&#xA;--cd_dac_unidade_destino = '0' &#xA;--go&#xA;&#xA;--checkpoint&#xA;--go&#xA;&#xA;update ajuste_fato &#xA;set qt_movimento_ajuste = qt_movimento_ajuste * -1&#xA;where qt_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;update ajuste_fato &#xA;set vl_movimento_ajuste = vl_movimento_ajuste * -1&#xA;where vl_sinal = '-'&#xA;go&#xA;&#xA;checkpoint&#xA;go&#xA;&#xA;--backup log dw_suprimento with truncate_only&#xA;--go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">cria outras tabelas fato</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{644AA817-F070-4CC4-A942-5EBA8FB850A8}</DTS:Property>
+<DTS:Property DTS:Name="Description">cria outras tabelas fato</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="select * into compra_fato from v_compra_fato&#xA;go&#xA;&#xA;select * into fornecimento_material_fato from v_fornecimento_material_fato&#xA;go&#xA;&#xA;drop table fornecedor&#xA;go&#xA;&#xA;select distinct f.nr_cnpj_fornecedor, dc_fornecedor into fornecedor from fornecedor_todos f&#xA;join compra_fato cf&#xA;on f.nr_cnpj_fornecedor = cf.nr_cnpj_fornecedor&#xA;go&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Insere valores não definidos</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B4B9F4E8-8E3D-42A4-83D6-C010ACF32482}</DTS:Property>
+<DTS:Property DTS:Name="Description">Insere valores não definidos</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="INSERT INTO [dw_suprimento].[dbo].[fornecedor]([nr_cnpj_fornecedor], [dc_fornecedor])&#xA;VALUES('000000000000000', 'NÃO DEFINIDO')&#xA;go&#xA;INSERT INTO [dw_suprimento].[dbo].[orgao]([cd_orgao], [mn_orgao])&#xA;VALUES('00', 'NÃO DEFINIDO')&#xA;go&#xA;INSERT INTO [dw_suprimento].[dbo].[unidade]([cd_orgao], [cd_unidade], [nm_unidade])&#xA;VALUES('00', '00', 'NÃO DEFINIDO')&#xA;go&#xA;INSERT INTO [dw_suprimento].[dbo].[secao]([cd_orgao], [cd_unidade], [cd_divisao], [cd_secao], [cd_dac_unidade], [nm_secao])&#xA;VALUES('00', '00', '00', '000', '0', 'NÃO DEFINIDO')&#xA;go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">create id and pk</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5540D9ED-2059-44A6-BBE8-553D06EA3373}</DTS:Property>
+<DTS:Property DTS:Name="Description">create id and pk</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="CREATE CLUSTERED&#xA;  INDEX [IDC_movimento_especifico_fato] ON [dbo].[movimento_especifico_fato] ([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material])&#xA;WITH&#xA;    FILLFACTOR = 100&#xA;ON [PRIMARY]&#xA;go&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_compra_fatol] ON [dbo].[compra_fato]([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material]) WITH  FILLFACTOR = 100 ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_fornecimento_material_fatol] ON [dbo].[fornecimento_material_fato]([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material]) WITH  FILLFACTOR = 100 ON [PRIMARY]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[classe] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_classe] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_natureza],&#xA;		[cd_classe]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[fornecedor] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_fornecedor] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[nr_cnpj_fornecedor]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[fornecedor_todos] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_fornecedor_todos] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[nr_cnpj_fornecedor]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[grupo] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_grupo] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;&#xA;ALTER TABLE [dbo].[item] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_item] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[natureza] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_natureza] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_natureza]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;&#xA;ALTER TABLE [dbo].[orgao] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_orgao] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_orgao]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[secao] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_secao] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[unidade] WITH NOCHECK ADD &#xA;	CONSTRAINT [PK_unidade] PRIMARY KEY  CLUSTERED &#xA;	(&#xA;		[cd_orgao],&#xA;		[cd_unidade]&#xA;	) WITH  FILLFACTOR = 100  ON [PRIMARY] &#xA;GO&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_movimento_geral_fatol] ON [dbo].[movimento_geral_fato]([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material]) WITH  FILLFACTOR = 100 ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_saldo_estoque_fato] ON [dbo].[saldo_estoque_fato]([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material]) WITH  FILLFACTOR = 100 ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_ajuste_fato] ON [dbo].[ajuste_fato]([cd_condicao], [cd_natureza], [cd_classe], [cd_grupo], [cd_item], [cd_dac_material]) WITH  FILLFACTOR = 100 ON [PRIMARY]&#xA;GO&#xA;&#xA;CREATE CLUSTERED  INDEX [IDC_quota_fato] ON [dbo].[quota_fato] ([cd_tipo_quota]) WITH   FILLFACTOR = 100 ON [PRIMARY]&#xA;go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">create fk</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A2C8C2F9-036C-4948-9100-8E718CA69747}</DTS:Property>
+<DTS:Property DTS:Name="Description">create fk</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="ALTER TABLE dbo.quota_fato ADD CONSTRAINT&#xA;	FK_quota_fato_tipo_quota FOREIGN KEY&#xA;	(&#xA;	cd_tipo_quota&#xA;	) REFERENCES dbo.tipo_quota&#xA;	(&#xA;	cd_tipo_quota&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.quota_fato ADD CONSTRAINT&#xA;	FK_quota_fato_secao_origem FOREIGN KEY&#xA;	(&#xA;	cd_orgao_origem,&#xA;	cd_unidade_origem,&#xA;	cd_divisao_origem,&#xA;	cd_secao_origem,&#xA;	cd_dac_unidade_origem&#xA;	) REFERENCES dbo.secao&#xA;	(&#xA;	cd_orgao,&#xA;	cd_unidade,&#xA;	cd_divisao,&#xA;	cd_secao,&#xA;	cd_dac_unidade&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.quota_fato ADD CONSTRAINT&#xA;	FK_quota_fato_secao_destino FOREIGN KEY&#xA;	(&#xA;	cd_orgao_destino,&#xA;	cd_unidade_destino,&#xA;	cd_divisao_destino,&#xA;	cd_secao_destino,&#xA;	cd_dac_unidade_destino&#xA;	) REFERENCES dbo.secao&#xA;	(&#xA;	cd_orgao,&#xA;	cd_unidade,&#xA;	cd_divisao,&#xA;	cd_secao,&#xA;	cd_dac_unidade&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.quota_fato ADD CONSTRAINT&#xA;	FK_quota_fato_item FOREIGN KEY&#xA;	(&#xA;	cd_condicao,&#xA;	cd_natureza,&#xA;	cd_classe,&#xA;	cd_grupo,&#xA;	cd_item,&#xA;	cd_dac_material&#xA;	) REFERENCES dbo.item&#xA;	(&#xA;	cd_condicao,&#xA;	cd_natureza,&#xA;	cd_classe,&#xA;	cd_grupo,&#xA;	cd_item,&#xA;	cd_dac_material&#xA;	)&#xA;GO&#xA;--&#xA;ALTER TABLE dbo.ajuste_fato ADD &#xA;CONSTRAINT [FK_ajuste_fato_item] FOREIGN KEY &#xA;	(&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	) REFERENCES [item] (&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.ajuste_fato ADD &#xA;	CONSTRAINT [FK_ajuste_fato_secao] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao_origem],&#xA;		[cd_unidade_origem],&#xA;		[cd_divisao_origem],&#xA;		[cd_secao_origem],&#xA;		[cd_dac_unidade_origem]&#xA;	) REFERENCES [secao] (&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.ajuste_fato ADD &#xA;	CONSTRAINT [FK_ajuste_fato_tipo_ajuste] FOREIGN KEY &#xA;	(&#xA;		[cd_tipo_ajuste]&#xA;	) REFERENCES [tipo_ajuste] (&#xA;		[cd_tipo_ajuste]&#xA;	)&#xA;GO&#xA;&#xA;&#xA;ALTER TABLE [dbo].[classe] ADD &#xA;	CONSTRAINT [FK_classe_natureza] FOREIGN KEY &#xA;	(&#xA;		[cd_natureza]&#xA;	) REFERENCES [dbo].[natureza] (&#xA;		[cd_natureza]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[grupo] ADD &#xA;	CONSTRAINT [FK_grupo_classe] FOREIGN KEY &#xA;	(&#xA;		[cd_natureza],&#xA;		[cd_classe]&#xA;	) REFERENCES [dbo].[classe] (&#xA;		[cd_natureza],&#xA;		[cd_classe]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[item] ADD &#xA;	CONSTRAINT [FK_item_grupo] FOREIGN KEY &#xA;	(&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo]&#xA;	) REFERENCES [dbo].[grupo] (&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[movimento_geral_fato] ADD &#xA;	CONSTRAINT [FK_movimento_geral_fato_fornecedor] FOREIGN KEY &#xA;	(&#xA;		[nr_cnpj_fornecedor]&#xA;	) REFERENCES [dbo].[fornecedor] (&#xA;		[nr_cnpj_fornecedor]&#xA;	)&#xA;go&#xA;ALTER TABLE [dbo].[movimento_geral_fato] ADD &#xA;	CONSTRAINT [FK_movimento_geral_fato_item] FOREIGN KEY &#xA;	(&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	) REFERENCES [dbo].[item] (&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	)&#xA;go&#xA;ALTER TABLE [dbo].[movimento_geral_fato] ADD &#xA;	CONSTRAINT [FK_movimento_geral_fato_secao] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao_origem],&#xA;		[cd_unidade_origem],&#xA;		[cd_divisao_origem],&#xA;		[cd_secao_origem],&#xA;		[cd_dac_unidade_origem]&#xA;	) REFERENCES [dbo].[secao] (&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	)&#xA;go&#xA;ALTER TABLE [dbo].[movimento_geral_fato] ADD &#xA;	CONSTRAINT [FK_movimento_geral_fato_secao_destino] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao_destino],&#xA;		[cd_unidade_destino],&#xA;		[cd_divisao_destino],&#xA;		[cd_secao_destino],&#xA;		[cd_dac_unidade_destino]&#xA;	) REFERENCES [dbo].[secao] (&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	)&#xA;go&#xA;ALTER TABLE [dbo].[movimento_geral_fato] ADD &#xA;	CONSTRAINT [FK_movimento_geral_fato_tipo_documento] FOREIGN KEY &#xA;	(&#xA;		[cd_documento]&#xA;	) REFERENCES [dbo].[tipo_documento] (&#xA;		[cd_documento]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[secao] ADD &#xA;	CONSTRAINT [FK_secao_unidade] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao],&#xA;		[cd_unidade]&#xA;	) REFERENCES [dbo].[unidade] (&#xA;		[cd_orgao],&#xA;		[cd_unidade]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[unidade] ADD &#xA;	CONSTRAINT [FK_unidade_orgao] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao]&#xA;	) REFERENCES [dbo].[orgao] (&#xA;		[cd_orgao]&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.saldo_estoque_fato ADD CONSTRAINT&#xA;	FK_saldo_estoque_fato_secao FOREIGN KEY&#xA;	(&#xA;	cd_orgao,&#xA;	cd_unidade,&#xA;	cd_divisao,&#xA;	cd_secao,&#xA;	cd_dac_unidade&#xA;	) REFERENCES dbo.secao&#xA;	(&#xA;	cd_orgao,&#xA;	cd_unidade,&#xA;	cd_divisao,&#xA;	cd_secao,&#xA;	cd_dac_unidade&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.saldo_estoque_fato ADD CONSTRAINT&#xA;	FK_saldo_estoque_fato_item FOREIGN KEY&#xA;	(&#xA;	cd_condicao,&#xA;	cd_natureza,&#xA;	cd_classe,&#xA;	cd_grupo,&#xA;	cd_item,&#xA;	cd_dac_material&#xA;	) REFERENCES dbo.item&#xA;	(&#xA;	cd_condicao,&#xA;	cd_natureza,&#xA;	cd_classe,&#xA;	cd_grupo,&#xA;	cd_item,&#xA;	cd_dac_material&#xA;	)&#xA;GO&#xA;&#xA;&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD &#xA;	CONSTRAINT [FK_movimento_especifico_fato_item] FOREIGN KEY &#xA;	(&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	) REFERENCES [item] (&#xA;		[cd_condicao],&#xA;		[cd_natureza],&#xA;		[cd_classe],&#xA;		[cd_grupo],&#xA;		[cd_item],&#xA;		[cd_dac_material]&#xA;	)&#xA;go&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD &#xA;	CONSTRAINT [FK_movimento_especifico_fato_secao_origem] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao_origem],&#xA;		[cd_unidade_origem],&#xA;		[cd_divisao_origem],&#xA;		[cd_secao_origem],&#xA;		[cd_dac_unidade_origem]&#xA;	) REFERENCES [secao] (&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	)&#xA;go&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD &#xA;	CONSTRAINT [FK_movimento_especifico_fato_secao_destino] FOREIGN KEY &#xA;	(&#xA;		[cd_orgao_destino],&#xA;		[cd_unidade_destino],&#xA;		[cd_divisao_destino],&#xA;		[cd_secao_destino],&#xA;		[cd_dac_unidade_destino]&#xA;	) REFERENCES [secao] (&#xA;		[cd_orgao],&#xA;		[cd_unidade],&#xA;		[cd_divisao],&#xA;		[cd_secao],&#xA;		[cd_dac_unidade]&#xA;	)&#xA;go&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD &#xA;	CONSTRAINT [FK_movimento_especifico_fato_tipo_documento] FOREIGN KEY &#xA;	(&#xA;		[cd_documento]&#xA;	) REFERENCES [tipo_documento] (&#xA;		[cd_documento]&#xA;	)&#xA;go&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD CONSTRAINT&#xA;	FK_movimento_especifico_fato_secao_suprimento FOREIGN KEY&#xA;	(&#xA;	cd_orgao_suprimento,&#xA;	cd_unidade_suprimento,&#xA;	cd_divisao_suprimento,&#xA;	cd_secao_suprimento,&#xA;	cd_dac_unidade_suprimento&#xA;	) REFERENCES dbo.secao&#xA;	(&#xA;	cd_orgao,&#xA;	cd_unidade,&#xA;	cd_divisao,&#xA;	cd_secao,&#xA;	cd_dac_unidade&#xA;	)&#xA;GO&#xA;&#xA;ALTER TABLE dbo.movimento_especifico_fato ADD &#xA;	CONSTRAINT [FK_movimento_especifico_fato_fornecedor] FOREIGN KEY &#xA;	(&#xA;		[nr_cnpj_fornecedor]&#xA;	) REFERENCES [fornecedor] (&#xA;		[nr_cnpj_fornecedor]&#xA;	)&#xA;go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Ajusta valores qt</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{DD37FD6F-4AEF-4CF8-BB3E-8945E68025F8}</DTS:Property>
+<DTS:Property DTS:Name="Description">Ajusta valores qt</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{48EF9C0E-4CD0-493E-AB4F-51D130B1B4D1}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="--update dbo.ajuste_fato set qt_movimento_ajuste = qt_movimento_ajuste/100&#xA;--go&#xA;--update dbo.compra_fato set qt_movimento = qt_movimento / 100&#xA;--go&#xA;--update dbo.fornecimento_material_fato set qt_movimento = qt_movimento / 100&#xA;--go&#xA;--update dbo.movimento_geral_fato set qt_movimento = qt_movimento / 100&#xA;--go&#xA;--update dbo.quota_fato set qt_requisitada = qt_requisitada / 100&#xA;--go&#xA;--update dbo.saldo_estoque_fato set qt_estoque = qt_estoque / 100&#xA;--go" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.Exec80PackageTask.Exec80PackageTask, Microsoft.SqlServer.Exec80PackageTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute DTS 2000 Package Task; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Processa as dimensões da Base de Dados Suprimento</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CAA4B852-1FD7-4C6C-8596-3070E72297E8}</DTS:Property>
+<DTS:Property DTS:Name="Description">Processa as dimensões da Base de Dados Suprimento</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.Exec80PackageTask.Exec80PackageTask, Microsoft.SqlServer.Exec80PackageTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><Exec80PackageTask:Exec80PackageTaskData Exec80PackageTask:Location="EmbeddedInTask" Exec80PackageTask:PackageName="dw_suprimento.Carga das tabelas_Processa as dimensões da Base de Dados Suprimento_23997172" Exec80PackageTask:PackageID="{EAC55001-39C5-4693-A7E8-8A17CBF68B53}" Exec80PackageTask:PackageVersionGUID="{8B485AB5-7EDB-4180-AE0E-0267BFDAF424}" Exec80PackageTask:SQLServer="" Exec80PackageTask:SQLUsername="" Exec80PackageTask:WindowsAuthentication="True" Exec80PackageTask:Filename="" Exec80PackageTask:InnerGlobalVariables="" Exec80PackageTask:OuterGlobalVariables="CancelEvent,,0;ContainerStartTime,,02/12/2013 10:18:49;CreationDate,,02/12/2013 10:18:49;CreatorComputerName,,PRODAMBFC111725;CreatorName,,REDE\p016886;ExecutionInstanceGUID,,{186A92BF-2A44-4263-BE63-1576E709D64F};FailedConfigurations,,;InteractiveMode,,False;LastModifiedProductVersion,,;LocaleID,,1046;MachineName,,PRODAMBFC111725;OfflineMode,,False;PackageID,,{19B08790-5566-4BFB-B5DB-473AAA8746D7};PackageName,,dw_suprimento Carga das tabelas;ParentContainerGUID,,;ProductVersion,,10.50.2500.0;StartTime,,02/12/2013 10:18:49;UserName,,REDE\p016886;VersionBuild,,0;VersionComments,,;VersionGUID,,{D6B52E32-96D9-4F06-839F-6C6162899271};VersionMajor,,1;VersionMinor,,0;" xmlns:Exec80PackageTask="www.microsoft.com/sqlserver/dts/tasks/exec80packagetask"><DTS2000Package>0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA
+EAAABQAAAAEAAAD+////AAAAAAMAAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////9
+/////v//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////1IA
+bwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAWAAUA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUgBv
+AG8AdAAgAEUAbgB0AHIAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAABYABQD//////////wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFTtr1jvzgEG
+AAAAwAQAAAAAAABQAGEAYwBrAGEAZwBlAEQAaQByAGUAYwB0AG8AcgB5AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAIgACAQIAAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAwAgAAAAAAAFAAYQBjAGsAYQBnAGUAMAAwADAAMAAwADAAMAAwAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEA//////////8DAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAQuOyvWO/OAVBU7a9Y784BAAAAAAAAAAAAAAAAVgBlAHIAcwBpAG8AbgBEAGkA
+cgBlAGMAdABvAHIAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAgEEAAAA////
+//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAUAIAAAAAAAD/////
+/////wQAAAD9/////v////7///8HAAAALwAAAAkAAAAKAAAACwAAAAwAAAANAAAADgAAAA8AAAAQ
+AAAAEQAAABIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAAGgAAABsAAAAcAAAAHQAAAB4A
+AAAfAAAAIAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAA
+AC0AAAAuAAAA/v////7/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////1YAZQBy
+AHMAaQBvAG4AMAAwADAAMAAwADAAMAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAgAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA
+AARMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIA
+AAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAD+////CgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAA
+ABEAAAASAAAA/v//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////8AAAAAAAAA
+AAAAAAACAAOAAVDF6sU5k0an6IoXy/aLU2QAdwBfAHMAdQBwAHIAaQBtAGUAbgB0AG8ALgBDAGEA
+cgBnAGEAIABkAGEAcwAgAHQAYQBiAGUAbABhAHMAXwBQAHIAbwBjAGUAcwBzAGEAIABhAHMAIABk
+AGkAbQBlAG4AcwD1AGUAcwAgAGQAYQAgAEIAYQBzAGUAIABkAGUAIABEAGEAZABvAHMAIABTAHUA
+cAByAGkAbQBlAG4AdABvAF8AMgAzADkAOQA3ADEANwAyAAAAgRXU3YEVhrYoduDSBBgIADMd0WVj
+AAAAAADFtih2+DwzHQAAAAD83YEV2rcodgAAAAAQPTMdwYYodrg/Mx0AAAAA0IYodgABA4AQPTMd
+ED0zHQAAAAAYL4UAAAAAAFjfgRX7T3ZzSDwzHeAzlRO4PzMdAQAAAAAAAAD4OzMdhN2BFQAAAABP
+AGwAZQBEAGYAUgBvAG8AdAA4ADAAQgA4AEQAOQAyADkANQAzADUAMQA3AEIANACI3oEVhrYoduDS
+BBiU3oEVhrYoduDSBBgIADMdGNVuEyTfgRW+RCF2AAAAAAAAAAAAAAAAAAAAAM9EIXYAAAAAAAAA
+AAAAAAAsmrUHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA/////+DSBBgIADMd
+0WVjAAAAAAAAAAAAAAAAAA/lh+PZCwAAU6KcwU1R5EAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAtVpIi9t+gEGuDgJnv9r0JJjfgRUAAAAA8QMAALVaSIvbfoBBrg4CZ7/a9CQCAAAAAAAAAAAA
+EcAs3YECAAAAAPjcgRVu1hx2rN2BFQEAAABs3YEVAAAAAFzdgRU3cyh2dN2BFYQ2Mx2ENjMdAAAA
+AJgIMx0AAAAAMN2BFRFSKHaoKzMdAAAAAP7////IIgAAEZ6kAlDdgRXgZiR3EcL149kLAAAQJwAA
+AQAAAB9NAgCE3YEVpWYkdx9NAgARnqQCpN2BFbADMx0AAAAAsAMzHZ0BAAAhAwAAAgAAABMAAAAW
+AAAApN2BFcKpKHYQuOyvWO/OARC47K9Y784BELjsr1jvzgHE3YEViKkodhC47K9Y784BELjsr1jv
+zgEQuOyvWO/OAQDegRVOqSh2ELjsr1jvzgEQuOyvWO/OARC47K9Y784BCN6BFcKnKHaEBDMdkN6B
+FQgGMx2Q3oEVfAQAAFwGMx0AAAAAGN6BFT2iKHaEBDMdBwAAACzegRUbjih2EAAAAJgAAADgM5UT
+UN6BFcFTIXZI3oEVeAIzHVzegRVc3oEV53EodnwCMx2gAjMdmAgzHQAAAAAw34EVAEwAANDPEeCh
+sRrhAAAAAAAAAAAAAAAAAAAAAD4AAwD+/wkABgAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAABAAAAIA
+AAACAAAA/v///wAAAAAAAAAA////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////f///wUA
+AAAeAAAABAAAAAgAAAAGAAAABwAAAAsAAAAJAAAACgAAAA0AAAAMAAAAEAAAAA4AAAAPAAAAEwAA
+ABEAAAASAAAAFQAAABQAAAAWAAAAFwAAABgAAAAZAAAAGgAAAP7///8bAAAAHAAAAB0AAAAfAAAA
+/v///yAAAAAhAAAAIgAAACMAAAAkAAAA/v//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////9SAG8AbwB0
+ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FgAFAP//////////BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQVO2vWO/OAQMAAACA
+KgAAAAAAAEkAdABlAG0AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAMAAIB////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEBAAAAAAAARQBsAGUAbQBlAG4AdAAwADAAMAAwADAAMAAwADEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgH///////////////8AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAiAEAAAAAAABFAGwAZQBtAGUAbgB0ADAAMAAwADAA
+MAAwADAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAEAAAACAAAA////
+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ0AAAAgAwAAAAAAAAEAAAACAAAA
+AwAAAAQAAAD+////BgAAAAcAAAAIAAAACQAAAAoAAAALAAAA/v////7///8OAAAA/v///xAAAAAR
+AAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAA/v///x8A
+AAAgAAAAIQAAAP7///8jAAAA/v///yUAAAAmAAAAJwAAAP7///8pAAAAKgAAACsAAAAsAAAALQAA
+AC4AAAAvAAAAMAAAADEAAAD+/////v///zQAAAA1AAAANgAAAP7///84AAAAOQAAAP7///87AAAA
+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
+olqlkM3WTxmjuDLayCM/AGBvk72F8mCadPWFFTId+0gOfiwzFyqzopxr7ytPRWJHDvhNocetqSBq
+cm6lRePCY060Sh5PCB33jHKV4wj9boG3+9erzegAsIlCJaRZdIPVCXm2XXRU40tMRrh5/8Fo/lMi
+EJ5SYAAyNE9tHUq5NaWofr1jWgZN6v7ZMA/2WwyyHlbgLX9cSlTA/Ho5291bRDzJHYh8Y4VUSRvY
+4UPkew78ByDVw3GpLrM7+whb2mBWNSBKYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+3HE7w3R4/6x9hvbnFfezDRZjzwDp0M0rZzCFVOEsEil6/TR6SJlcePKs+a8shIN1VUjBqXQTbknR
+DtjaQsOIIdD6GCHjwre0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAD8nijVsn3lTG/yPoz2VzaAva8qTx3pTqmFV3m4TcDLc6noZarLRNU7pdVK
+eyNO5JZJuS3sMXv7xZLEJC8cU4/ogQAAAIIAAAD+/////v///4UAAAD+////hwAAAIgAAACJAAAA
+igAAAIsAAACMAAAAjQAAAI4AAACPAAAAkAAAAJEAAACSAAAAkwAAAJQAAACVAAAAlgAAAJcAAACY
+AAAAmQAAAJoAAACbAAAAnAAAAP7///+eAAAAnwAAAKAAAAChAAAAogAAAKMAAACkAAAApQAAAKYA
+AACnAAAAqAAAAKkAAAD+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+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
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA5N6BFa4mKHYIBjMdxSYodiw9Mx0AAAAAmAgzHascKHaGtih24NIEGAgAMx0w34EV
+AAAAAAgGMx0AAAAALN+BFV9jKHaj2NCOlN+BFQzggRUAAAAAqK8bdpxZ044gAAAAMN+BFdzegRUW
+Yih2MN+BFVOinMFNUeRAAAAAAAQAAADFtih2CAAAAAUAAAAICQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAA=</DTS2000Package></Exec80PackageTask:Exec80PackageTaskData></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.Exec80PackageTask.Exec80PackageTask, Microsoft.SqlServer.Exec80PackageTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute DTS 2000 Package Task; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Processa os cubos da Base de Dados Suprimento</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{0FB7028C-1A33-49DC-9A10-6248217A6BD3}</DTS:Property>
+<DTS:Property DTS:Name="Description">Processa os cubos da Base de Dados Suprimento</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.Exec80PackageTask.Exec80PackageTask, Microsoft.SqlServer.Exec80PackageTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><Exec80PackageTask:Exec80PackageTaskData Exec80PackageTask:Location="EmbeddedInTask" Exec80PackageTask:PackageName="dw_suprimento.Carga das tabelas_Processa os cubos da Base de Dados Suprimento_6130944" Exec80PackageTask:PackageID="{B313E4E4-01AD-4737-A2F5-C5EC017A2B9E}" Exec80PackageTask:PackageVersionGUID="{48C3D681-B97C-4F9C-9744-67010B053AB1}" Exec80PackageTask:SQLServer="" Exec80PackageTask:SQLUsername="" Exec80PackageTask:WindowsAuthentication="True" Exec80PackageTask:Filename="" Exec80PackageTask:InnerGlobalVariables="" Exec80PackageTask:OuterGlobalVariables="CancelEvent,,0;ContainerStartTime,,02/12/2013 10:18:49;CreationDate,,02/12/2013 10:18:49;CreatorComputerName,,PRODAMBFC111725;CreatorName,,REDE\p016886;ExecutionInstanceGUID,,{186A92BF-2A44-4263-BE63-1576E709D64F};FailedConfigurations,,;InteractiveMode,,False;LastModifiedProductVersion,,;LocaleID,,1046;MachineName,,PRODAMBFC111725;OfflineMode,,False;PackageID,,{19B08790-5566-4BFB-B5DB-473AAA8746D7};PackageName,,dw_suprimento Carga das tabelas;ParentContainerGUID,,;ProductVersion,,10.50.2500.0;StartTime,,02/12/2013 10:18:49;UserName,,REDE\p016886;VersionBuild,,0;VersionComments,,;VersionGUID,,{D6B52E32-96D9-4F06-839F-6C6162899271};VersionMajor,,1;VersionMinor,,0;" xmlns:Exec80PackageTask="www.microsoft.com/sqlserver/dts/tasks/exec80packagetask"><DTS2000Package>0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA
+EAAABQAAAAEAAAD+////AAAAAAMAAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////9
+/////v//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////1IA
+bwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAWAAUA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUgBv
+AG8AdAAgAEUAbgB0AHIAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAABYABQD//////////wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFX/r1jvzgEG
+AAAAwAQAAAAAAABQAGEAYwBrAGEAZwBlAEQAaQByAGUAYwB0AG8AcgB5AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAIgACAQIAAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAwAgAAAAAAAFAAYQBjAGsAYQBnAGUAMAAwADAAMAAwADAAMAAwAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEA//////////8DAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABwuf6vWO/OAbBV/69Y784BAAAAAAAAAAAAAAAAVgBlAHIAcwBpAG8AbgBEAGkA
+cgBlAGMAdABvAHIAeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAgEEAAAA////
+//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAUAIAAAAAAAD/////
+/////wQAAAD9/////v////7///8HAAAALgAAAAkAAAAKAAAACwAAAAwAAAANAAAADgAAAA8AAAAQ
+AAAAEQAAABIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAAGgAAABsAAAAcAAAAHQAAAB4A
+AAAfAAAAIAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAA
+AC0AAAD+/////v//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////1YAZQBy
+AHMAaQBvAG4AMAAwADAAMAAwADAAMAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAgAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA
+AARKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////
+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIA
+AAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAD+////CgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAA
+ABEAAAASAAAA/v//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////8AAAAAAAAA
+AAAAAAACAAOA5OQTs60BN0ei9cXsAXornmQAdwBfAHMAdQBwAHIAaQBtAGUAbgB0AG8ALgBDAGEA
+cgBnAGEAIABkAGEAcwAgAHQAYQBiAGUAbABhAHMAXwBQAHIAbwBjAGUAcwBzAGEAIABvAHMAIABj
+AHUAYgBvAHMAIABkAGEAIABCAGEAcwBlACAAZABlACAARABhAGQAbwBzACAAUwB1AHAAcgBpAG0A
+ZQBuAHQAbwBfADYAMQAzADAAOQA0ADQAAADQ3YEVwVMhdsjdgRXU3YEVhrYodkAnBRgIADMdQ2Zj
+AAAAAADFtih2+DwzHQAAAAD83YEV2rcodgAAAAAQPTMdwYYodrg/Mx0AAAAA0IYodgABA4AQPTMd
+ED0zHQAAAAAYL4UAAAAAAFjfgRX7T3ZzSDwzHeAzlRO4PzMdAQAAAAAAAAD4OzMdhN2BFQAAAABP
+AGwAZQBEAGYAUgBvAG8AdAA0ADIAQgA1AEYAQgA2ADMANgAxADEAQgBFAEEARACI3oEVhrYodkAn
+BRiU3oEVhrYodkAnBRgIADMdGNVuEyTfgRW+RCF2AAAAAAAAAAAAAAAAAAAAAM9EIXYAAAAAAAAA
+AAAAAAAsmrUHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA/////0AnBRgIADMd
+Q2ZjAAAAAAAAAAAAAAAAAITlh+PZCwAAU6KcwU1R5EAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgdbDSHy5nE+XRGcBCwU6sZjfgRUAAAAA8QMAAIHWw0h8uZxPl0RnAQsFOrECAAAAAAAAAAAA
+EcAs3YECAAAAAPjcgRVu1hx2rN2BFQEAAABs3YEVAAAAAFzdgRU3cyh2dN2BFYQ2Mx2ENjMdAAAA
+AJgIMx0AAAAAMN2BFRFSKHaoKzMdAAAAAP7////IIgAAh56kAlDdgRXgZiR3h8L149kLAAAQJwAA
+AQAAAB9NAgCE3YEVpWYkdx9NAgCHnqQCpN2BFbADMx0AAAAAsAMzHZ0BAACXAwAAAgAAABMAAAAW
+AAAApN2BFcKpKHZwuf6vWO/OAXC5/q9Y784BcLn+r1jvzgHE3YEViKkodnC5/q9Y784BcLn+r1jv
+zgFwuf6vWO/OAQDegRVOqSh2cLn+r1jvzgFwuf6vWO/OAXC5/q9Y784BCN6BFcKnKHaEBDMdkN6B
+FQgGMx2Q3oEVfAQAAFwGMx0AAAAAGN6BFT2iKHaEBDMdBwAAACzegRUbjih2EAAAAJgAAADgM5UT
+UN6BFcFTIXZI3oEVeAIzHVzegRVc3oEV53EodnwCMx2gAjMdmAgzHQAAAAAw34EVAEoAANDPEeCh
+sRrhAAAAAAAAAAAAAAAAAAAAAD4AAwD+/wkABgAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAABAAAAIA
+AAACAAAA/v///wAAAAAAAAAA////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////f///wUA
+AAAeAAAABAAAAAgAAAAGAAAABwAAAAsAAAAJAAAACgAAAA0AAAAMAAAAEAAAAA4AAAAPAAAAEwAA
+ABEAAAASAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAA/v///xoAAAAbAAAAHAAAAB0AAAAfAAAA
+/v///yAAAAAhAAAAIgAAACMAAAD+////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////9SAG8AbwB0
+ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FgAFAP//////////BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgLv+vWO/OAQMAAABA
+KQAAAAAAAEkAdABlAG0AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAMAAIB////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEBAAAAAAAARQBsAGUAbQBlAG4AdAAwADAAMAAwADAAMAAwADEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgH///////////////8AAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAACAEAAAAAAABFAGwAZQBtAGUAbgB0ADAAMAAwADAA
+MAAwADAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAEAAAACAAAA////
+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJkAAADwAgAAAAAAAAEAAAACAAAA
+AwAAAAQAAAD+////BgAAAAcAAAAIAAAACQAAAP7////+////DAAAAP7///8OAAAADwAAABAAAAAR
+AAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAA/v///xwAAAAdAAAAHgAAAP7/
+//8gAAAA/v///yIAAAAjAAAAJAAAAP7///8mAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAALQAA
+AP7////+////MAAAADEAAAAyAAAA/v///zQAAAA1AAAA/v///zcAAAA4AAAAOQAAAP7///87AAAA
+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
+ZcHZG2GGgcTuh/4O9on20qFqxi2o2zFYSkWI7tZwlffpv4qrLhErqjPAVGYAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHusvX2WNkRG2PSqmEU
+VPvM9gGITp96Ozru5778fhOeq3irkB7Hqoykst4x/Cjk/G77rHPxs+5rcsdrVALM74dPxEtGQNmP
+RkqeA2xQmMpq3U48cSMPWYUEuOVe6sC33ZFxfDRlJs+5A14yamYbjcu8Fr/Pl/QXxy2RCHF1mwpQ
+QMO6VfZSyzj4nGWBhtWZnTZJTz6kyS6QQLCCm5F82lP07c5gN/Ze358sfxl2r8ErbG/FsX/46qei
+ccX4/dP9LNXDnF7bOvVn5nh7beBmxhlOx1s0aLkG47NyTmCghq5LAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAACSO3wjsA3YqNgTMkiWvyTvS/dW+UinAPMAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAP7///+DAAAAhAAAAIUAAACGAAAAhwAAAIgAAACJAAAA
+igAAAIsAAACMAAAAjQAAAI4AAACPAAAAkAAAAJEAAACSAAAAkwAAAJQAAACVAAAAlgAAAJcAAACY
+AAAA/v///5oAAACbAAAAnAAAAJ0AAACeAAAAnwAAAKAAAAChAAAAogAAAKMAAACkAAAA/v//////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////kbHwISp7O5KPW2/bYUa1PWZvUpEJj/iNUxLukv0aK9fb0bfTu
+U5HuRlyUGBrtb2F41XMh9wPtmAmprH5BjzpRSu1olZNMgOAzthmVcqzTMrogiLfofG9e0k0e/mMA
+7B60xklsK2E7jUqXIf4HK0neAL8NYy8uMrQAAAAAAAAAAODqfwhb1TbpYL3mlB4wQXEsZVdeYUO9
+oTDTPHKl/YINU+lPs7qTH++WilpB1h55uJcszGwgXXkVD39ZlLbRnB2K8nR1YBHzo35XOAyTlPCd
+HdbFS3ktRwnuqHdCF5b0arjD2off2R7N5/Eq4KzDeyQsqO55TRu0St2sdhSud7Zc/ui335W9OKbk
+mKzy/JSTZcp2cpeC1LIvzaOZPhaueiggF2gM3r3Xqjkl4IT8bfHyIXU0p7LRdyXoqg0zxPZ9Q+lU
+2Xbk4leiHxY/00eOsGjhGOAVU3v7XZv2ZRCMsy+pDgVLHDQxvOcYU3IF1RKNjoALOiQqWUCQpK5e
+zIr0Z77DcWUD+YlV2mgZ7KFvTu6YWbBv9v/QTc0eae7LXJeVR9NMH19RkcSfBDZrIVJiwtSiwRmP
+CBwIXOZU0VUrNYvhC26iVb7BZyOLSuMD2y1HaSdm4gITwJPUr4BtOWMlAke6T7mly9DAdkt6ePJW
+ULDirvyIsgP7GrOdARThuCCWO3s1680RTef8I/39/Lgi6J2HkKUDbFAqcKi2EkI0b3Y5Cmvh0nD2
+uVCj71SHlq2FlbObP7q5l/RXamIhFssf4PUKl+svX/SKnPtrVi/s9P/9dPp7BljxKBuJpm9RNFit
+BQXU+fN40f72KGJl6g5r3dQMuzsQ7NCCqE5e8uxCqPjv+n3LpGObp+Na5M4alCikRnf7M36PgJlB
+1KSYZOwybRxPyGFcCVgIWMp79JigdRo0RdDU9VaH7B2ggEsiMaiXsP/cREseIU4hTb88ZyfIk8xv
+B+6HSzZXS68+QsrBDOBHVcsag4y67HblZ0ShsxVrbHv29hDJfva5Y04wEg6w2YbQCkoUhERy6bv+
+/ZhW02CVek3MnnrviimGrM6SlufLvq8EPtuoHdEIhQFhOolvuEOW+wDWxVhyo2uz6CsSRm7X3Dm7
+hKXohdVd5q39WfPhEtpsU26ILsRtnstySOwVtaBeH9Hg09ZhFzG3s/o9enevbjMJM8nFYogeex7O
+R8OYbRvnCrpo0lVurSmfSYuhil0ugrdFHbi0RUSh7Ed1pv7iQG0iDLV+Dgt6k4t7r5LCZium8XJb
+47GHeU03zPH5oNKezCBZJJTQGnaMQNFA0qkxCDfbiPJNY83ineCqJuy61LIIFaLdhuNfwaQIeqjC
+P13ltWTPvmaZegjezdhlhGIiqYlQAAd7sjW1I0td3wGxMBwM2aeazE8WmzOPRaqCEtIpmgdOWh7x
+xciC3ZlJs0lhPFl+ME2UUKslbd1stLqUeq5jyumV2eYUok0EROgf80FRZteP+LI8zkDJ0mz6IFlr
+yr5hQVXCSU9ryZwuWbVBkQ7gZIulsAvAfmL1syGAiKfPsAR93r6ttowQvsHWXKRYC0Gm/lQCSi+E
+kHTKJWhtNfF2r+p+pwo4rtwspfTondCeKiFYUDvl+pE7XkyG4bhaLVY3BdNwXChfypQByd6VgbxA
+zZ2UnHNRHlfWHjp5egXcC9+jZaybtPcDcKmvSGXPCzWrICJEfnya0PVUu5YrAoLT/eysFyFl12WV
+pcqGYG6Lq7g1Ko4Z/1GI9IXX8wIbnIuBSW4Jm6AHz2Reahkm34LrLV9mnF09m2w6uLXyw86vvFwq
+IdMZVuG/9o1Hu/OsEbQ/z0HSRs3hTSEWFIFUhJFqKfuER7oytw+jU69T0EROr+hk/Lbe5op1wz7O
+TZ98IbA9eBsYVdk4wvp2TGNEJheFfWeoa3VDKftxzo33/jnweRbhbtSRdut3WLl8JViRW40dXeC8
+DKDnZWfMKFO4luXh/h1xq0zrntES+yQ1nQDY9IAqTs8GADPuyigZwZSamZuShitEgBjc8Ij+Nhxu
+rc50leSksnqw3EeWgp3XCXz7nz8Tc1W/ndjIGW+fWObAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAvqy3QqoAuwGBOOFBYD9Qah6FyyWyumB6MmmFyDPKey
+/K9xTbh0WpWp8aOxJhNqVXTWYnO2tQCujZNiZRLxTQEWCYDW6kcxSuYk5HMl3suajHWftnCINEaJ
+amGrzWJAcVqzaKffQGsQqn4dRUjKIBG2TGEDEIm6uXo2ygmS4PadLyzGSvzsGbexARE1+0Zqar/l
+i1i37lydF7fqgj7s7FKanvQbtY3wMy9TVBbvxacvLC6/M678TUNjC2eqdSUyFrYZlho5b7Axrukp
+4D/Y7BE4GEpiV2bY20kcgdTKttM4yD/NqlzuPQPv4EBV5zto4yGxZDj/PqO+uLXbZP+p0QYFNxBU
+A6X4j52p8nVdrKJrVb48tMLIc9raNDEeTwmE0+I1ZXIzKD5W0ehU4lLAF0OEcbqcUpyzYM8Q3aNY
+Or4JYQ7rZ0MRDJoJdIftGTcaXQQ1DkdYm+7PTrwFRJXXwqEOGuVlcOfj/1TGIjYNw03e7SJUbOxh
+Hl3DMWl/XdssYlbhbcjNdOdksdCFYbreQGCr8yILwwYt6uZ4i05MhG8Bpi97RZtpnNUPoFSxEm9E
++tofgTuCnrjGFVWebYiop64TF2Roex9/9lcQ6TB8LYsRbcXlY5hDgIcxI7kPeU/66WonKXeRnXzU
+Rf8i7B7z0MKaMAdlhk1l7tr+DkLrWbvjn98D2FpRszmy1y9ZVFt1yq0mvDl+mntvz8uE7XcMxiPb
+g0jONZ4B6O3uqfHDMX6o5Tg1YKi25r5g0TGmsZRa4ZSgq5hkAcZ54KuwrGvPIcZ4SS+MT5OdsN9Q
+5HsFMBtTFH+bc9n6BtX9chlQJSDdq7LaTQJgAuEJN35MrZuFEd34kRc0flGvGtGSdGcFuyHmFuMl
+0GmdXhvzXz5Gy3+mt3Lxquc41G3s3v/5v5OMDmUDEjxJse/UhqGhUtiFWzaayFwVRZTuMANIt8uT
+6Wc9JeKYYuoFFLEdGBHJX6H6U/JKBRj21ccUxweIfQQXgq8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAOTegRWuJih2CAYzHcUmKHYsPTMdAAAAAJgIMx2rHCh2hrYodkAnBRgIADMdMN+B
+FQAAAAAIBjMdAAAAACzfgRVfYyh2o9jQjpTfgRUM4IEVAAAAAKivG3acWdOOIAAAADDfgRXc3oEV
+FmIodjDfgRVTopzBTVHkQAAAAAAEAAAAxbYodggAAAAFAAAACAkAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA</DTS2000Package></Exec80PackageTask:Exec80PackageTaskData></DTS:ObjectData></DTS:Executable>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{C9ABEB33-D677-4443-A879-55BEF5F905B1}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{F5E3CD07-7456-42E5-AE15-A030FEA5F1D3}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{CF01E7B1-62FC-43BE-ABF9-33950950D07E}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CF01E7B1-62FC-43BE-ABF9-33950950D07E}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{F5E3CD07-7456-42E5-AE15-A030FEA5F1D3}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{2DAF2D5D-99F6-44A7-B4CB-5A2C53FB212C}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{C7B9E009-4CC4-4E1D-B305-9D6AFBAF044B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C7B9E009-4CC4-4E1D-B305-9D6AFBAF044B}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{2DAF2D5D-99F6-44A7-B4CB-5A2C53FB212C}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{82D6C7B2-4840-41D4-B40A-7573EFBE7335}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{2E722D0C-A575-49F2-B17A-0DCB5FA04EA2}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2E722D0C-A575-49F2-B17A-0DCB5FA04EA2}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{82D6C7B2-4840-41D4-B40A-7573EFBE7335}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{DA011812-31C3-47EF-AC6B-A99CAE538687}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{57EE5A33-A57C-45E5-B68C-196695E9F3FC}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{57EE5A33-A57C-45E5-B68C-196695E9F3FC}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{DA011812-31C3-47EF-AC6B-A99CAE538687}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{E4400B84-9BD9-4AFE-806B-995AC04487B8}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{14F5EC33-0C0F-4163-9041-BA9FEF21CD45}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{14F5EC33-0C0F-4163-9041-BA9FEF21CD45}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{E4400B84-9BD9-4AFE-806B-995AC04487B8}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{EAE09930-8F51-4FD0-8F03-B9FA9AEBF928}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{F7BD8F34-1F52-49B1-AA68-0673F50682F0}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F7BD8F34-1F52-49B1-AA68-0673F50682F0}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{EAE09930-8F51-4FD0-8F03-B9FA9AEBF928}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{66CAAD9B-32BE-4BBE-8244-0380F9A32A83}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{601AF977-B56D-432F-AF7D-55418C6D3DDA}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{601AF977-B56D-432F-AF7D-55418C6D3DDA}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{66CAAD9B-32BE-4BBE-8244-0380F9A32A83}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{9FC6BF56-1CF5-4119-8B63-414A31E56FDC}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{75D28D41-A73F-4EC1-BFD9-838EF80C9983}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{75D28D41-A73F-4EC1-BFD9-838EF80C9983}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{9FC6BF56-1CF5-4119-8B63-414A31E56FDC}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{903E8D48-0F8F-48AF-95EB-C5710FF2F318}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{D9D0BCD6-3CFC-4FAB-A63E-D96B5CA2950E}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D9D0BCD6-3CFC-4FAB-A63E-D96B5CA2950E}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{903E8D48-0F8F-48AF-95EB-C5710FF2F318}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{91B1E594-1D67-432E-89FE-015E87C5F4D1}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{F2291F1A-A7FC-483B-8D3B-B27E28FEA489}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F2291F1A-A7FC-483B-8D3B-B27E28FEA489}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{939BF5C6-0463-4D20-8C53-9B0ACE857C51}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{79BE167C-F509-437D-90FA-3D6A67D41D2E}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{EDED591D-4931-4CCB-BE0F-2D7F4F667391}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{EDED591D-4931-4CCB-BE0F-2D7F4F667391}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{B4B9F4E8-8E3D-42A4-83D6-C010ACF32482}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{5540D9ED-2059-44A6-BBE8-553D06EA3373}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{0FDD1E39-70E9-4BE8-A95B-76BEA4AB94BE}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{0FDD1E39-70E9-4BE8-A95B-76BEA4AB94BE}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{5540D9ED-2059-44A6-BBE8-553D06EA3373}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{A2C8C2F9-036C-4948-9100-8E718CA69747}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{67DDF6E5-AB2C-4833-9C46-2EAB98ECCD82}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{67DDF6E5-AB2C-4833-9C46-2EAB98ECCD82}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{FD0900BE-48AF-4CEC-98CB-64C8B68C0D48}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{C9ABEB33-D677-4443-A879-55BEF5F905B1}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{BA056341-19EB-4370-BF2D-82993680C029}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{BA056341-19EB-4370-BF2D-82993680C029}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{79BE167C-F509-437D-90FA-3D6A67D41D2E}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{644AA817-F070-4CC4-A942-5EBA8FB850A8}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{6F88C7A3-064F-4D79-9185-28B6CFF194DB}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6F88C7A3-064F-4D79-9185-28B6CFF194DB}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{91B1E594-1D67-432E-89FE-015E87C5F4D1}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{795133CB-A0E2-4C7A-B859-7EAD63D1817B}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{5544AAD5-5DBB-467F-B4E7-66ECEC3B4208}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5544AAD5-5DBB-467F-B4E7-66ECEC3B4208}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{795133CB-A0E2-4C7A-B859-7EAD63D1817B}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{5B556EC4-31FC-4D5A-A6BF-AE1D28203914}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{2560116E-AD98-4E32-B717-EAE46887E5A3}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2560116E-AD98-4E32-B717-EAE46887E5A3}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{5B556EC4-31FC-4D5A-A6BF-AE1D28203914}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{90D49B9F-EF79-4C76-BFD4-82F522125D0E}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{02ACB38D-6769-4BE8-9AE0-324FB0C7F40F}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{02ACB38D-6769-4BE8-9AE0-324FB0C7F40F}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{90D49B9F-EF79-4C76-BFD4-82F522125D0E}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{33D14EA8-27EE-4E36-8E5C-960E1C08A10E}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{F94EB08A-0359-4690-9E87-DB424E0E98B7}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F94EB08A-0359-4690-9E87-DB424E0E98B7}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{A2C8C2F9-036C-4948-9100-8E718CA69747}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{DD37FD6F-4AEF-4CF8-BB3E-8945E68025F8}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{3544E1A7-D144-4E3A-9CA0-F4D18C9B4328}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{3544E1A7-D144-4E3A-9CA0-F4D18C9B4328}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{33D14EA8-27EE-4E36-8E5C-960E1C08A10E}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{09F4678B-344A-499D-801C-4D132FC65281}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{67D7A8E8-7ED6-4C94-9E07-219AE39E3F69}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{67D7A8E8-7ED6-4C94-9E07-219AE39E3F69}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{09F4678B-344A-499D-801C-4D132FC65281}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{939BF5C6-0463-4D20-8C53-9B0ACE857C51}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{353581E6-9AD5-44AA-8D55-0AEC232CDCD0}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{353581E6-9AD5-44AA-8D55-0AEC232CDCD0}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{644AA817-F070-4CC4-A942-5EBA8FB850A8}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{B4B9F4E8-8E3D-42A4-83D6-C010ACF32482}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{FC4C7369-545A-43FB-ABA2-1ED71A7C53EE}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FC4C7369-545A-43FB-ABA2-1ED71A7C53EE}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{DD37FD6F-4AEF-4CF8-BB3E-8945E68025F8}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{CAA4B852-1FD7-4C6C-8596-3070E72297E8}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{B8E2236A-2582-4DED-81D7-4EA99F81163B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B8E2236A-2582-4DED-81D7-4EA99F81163B}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{CAA4B852-1FD7-4C6C-8596-3070E72297E8}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{0FB7028C-1A33-49DC-9A10-6248217A6BD3}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">{2B2640AB-4AAE-4AC3-9A28-405E7F53A735}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2B2640AB-4AAE-4AC3-9A28-405E7F53A735}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="ObjectName">dw_suprimento Carga das tabelas</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{19B08790-5566-4BFB-B5DB-473AAA8746D7}</DTS:Property>
+<DTS:Property DTS:Name="Description">Carga nas tabelas do data warehouse suprimento - DCPTLAB56</DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Package.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property></DTS:Executable>

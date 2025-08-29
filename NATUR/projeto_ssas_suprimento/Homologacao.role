@@ -1,0 +1,12 @@
+﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0be64fb6-7acc-4ebb-a205-3a0e5866b503" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Homologacao</ID>
+  <Name>Homologacao</Name>
+  <CreatedTimestamp>2013-11-28T12:35:57.523333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:57.523333Z</LastSchemaUpdate>
+  <Members>
+    <Member>
+      <Name>REDE\p012803</Name>
+      <Sid>S-1-5-21-72051607-822486528-653798387-2209</Sid>
+    </Member>
+  </Members>
+</Role>

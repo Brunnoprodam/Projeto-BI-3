@@ -1,0 +1,38 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f9622b84-0711-4de5-b543-744dbf1802dc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Aquisição e Consumo Ativo</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Aquisição e Consumo Ativo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c946efa4-2177-4c9b-8aa7-fb331e8103c0">
+          <ID>Aquisição e Consumo Ativo</ID>
+          <Name>Aquisição e Consumo Ativo</Name>
+          <CreatedTimestamp>2013-11-28T12:36:02.883333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2013-11-28T12:36:02.883333Z</LastSchemaUpdate>
+          <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="2316a0d8-d531-4c98-a298-cac7660e16f7">
+            <DataSourceID>DCPTLAB02 - DW_Suprimento</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>movimento_especifico_fato</DbTableName>
+          </Source>
+          <AggregationPrefix>AquisiçãoeConsumoAtivo_AquisiçãoeConsumoAtivo_</AggregationPrefix>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ErrorConfiguration dwd:design-time-name="6eba505d-ca42-4381-b9b2-82acde3308d0">
+            <KeyErrorLimit>-1</KeyErrorLimit>
+          </ErrorConfiguration>
+          <ProactiveCaching dwd:design-time-name="9b6e9121-d273-4d97-979d-be57f26ff61a">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5ddf82a5-8828-4b76-9a03-865e197c4c16" />
+          </ProactiveCaching>
+          <EstimatedRows>3449563</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

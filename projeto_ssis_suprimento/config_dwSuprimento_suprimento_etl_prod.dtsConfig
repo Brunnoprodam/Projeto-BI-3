@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="REDE\p016886" GeneratedFromPackageName="dwSuprimento_suprimento_etl" GeneratedFromPackageID="{7D40CCF3-612E-4D53-84C3-3E59A043279E}" GeneratedDate="10/03/2015 07:28:31"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for Text files].Properties[ConfigString]" ValueType="String">
+    <ConfiguredValue>cn_log_dwSuprimento_suprimento_etl</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for Text files].Properties[Description]" ValueType="String">
+    <ConfiguredValue>Writes log entries for events to a CSV file</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for Text files].Properties[Name]" ValueType="String">
+    <ConfiguredValue>SSIS log provider for Text files</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=c64s197i\prd;Initial Catalog=dw_acesso_cubos;Provider=SQLNCLI10.1;Integrated Security=SSPI;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[Description]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>dw_acesso_cubos</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_dw_acesso_cubos</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[Password]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[RetainSameConnection]" ValueType="Boolean">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>c64s197i\prd</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_acesso_cubos].Properties[UserName]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=c64s197i\prd;User ID=;Initial Catalog=dw_suprimento;Provider=SQLOLEDB.1;Integrated Security=SSPI;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[Description]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>dw_suprimento</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_dw_suprimento</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[Password]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[RetainSameConnection]" ValueType="Boolean">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>c64s197i\prd</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_dw_suprimento].Properties[UserName]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_log_dwSuprimento_suprimento_etl].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\c64s197i\BI\IS\log\log_dwSuprimento_suprimento_etl.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_log_dwSuprimento_suprimento_etl].Properties[Description]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_log_dwSuprimento_suprimento_etl].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_log_dwSuprimento_suprimento_etl].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_log_dwSuprimento_suprimento_etl</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_log_dwSuprimento_suprimento_etl].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>SmtpServer=smtpcorp.prodam;UseWindowsAuthentication=False;EnableSsl=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[Description]" ValueType="String">
+    <ConfiguredValue>Conexão com o servidor de email corporativo da Prodam</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[EnableSsl]" ValueType="Boolean">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_smtp_corporativo</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[SmtpServer]" ValueType="String">
+    <ConfiguredValue>smtpcorp.prodam</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_smtp_corporativo].Properties[UseWindowsAuthentication]" ValueType="Boolean">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=c64s197i\prd;User ID=;Initial Catalog=Suprimento;Provider=MSOLAP.5;Integrated Security=SSPI;Impersonation Level=Impersonate;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[Description]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>Suprimento</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_ssas_suprimento</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[Password]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[RetainSameConnection]" ValueType="Boolean">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>c64s197i\prd</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_ssas_suprimento].Properties[UserName]" ValueType="String">
+    <ConfiguredValue></ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_ajuste_fato].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\ajustes.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_ajuste_fato].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela ajuste_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_ajuste_fato].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_ajuste_fato].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_ajuste_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_ajuste_fato].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_classe].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\CLASSE.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_classe].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela classe</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_classe].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_classe].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_classe</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_classe].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_fornecedor_todos].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\FORNEC.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_fornecedor_todos].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela fornecedor_todos</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_fornecedor_todos].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_fornecedor_todos].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_fornecedor_todos</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_fornecedor_todos].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_grupo].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\GRUPO.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_grupo].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela grupo</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_grupo].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_grupo].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_grupo</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_grupo].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_item].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\MATERIAL.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_item].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela item</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_item].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_item].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_item</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_item].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_especifico_fato].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\moviesp.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_especifico_fato].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela movimento_especifico_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_especifico_fato].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_especifico_fato].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_movimento_especifico_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_especifico_fato].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_geral_fato].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\fato.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_geral_fato].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela movimento_geral_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_geral_fato].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_geral_fato].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_movimento_geral_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_movimento_geral_fato].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_natureza].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\NATUR.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_natureza].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela natureza</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_natureza].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_natureza].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_natureza</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_natureza].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_orgao].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\SECR.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_orgao].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela orgao</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_orgao].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_orgao].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_orgao</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_orgao].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_quota_fato].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\quotas.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_quota_fato].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela quota_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_quota_fato].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_quota_fato].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_quota_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_quota_fato].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_saldo_estoque_fato].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\saldos.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_saldo_estoque_fato].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela saldo_estoque_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_saldo_estoque_fato].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_saldo_estoque_fato].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_saldo_estoque_fato</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_saldo_estoque_fato].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_secao].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\UNIDADES.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_secao].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela secao</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_secao].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_secao].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_secao</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_secao].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_unidade].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>\\cprodamibs26\sqldidet\sj101065\UNOR.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_unidade].Properties[Description]" ValueType="String">
+    <ConfiguredValue>tabela unidade</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_unidade].Properties[FileUsageType]" ValueType="Int32">
+    <ConfiguredValue>0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_unidade].Properties[Name]" ValueType="String">
+    <ConfiguredValue>cn_txt_unidade</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[cn_txt_unidade].Properties[ProtectionLevel]" ValueType="Int32">
+    <ConfiguredValue>1</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

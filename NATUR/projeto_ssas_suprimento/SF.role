@@ -1,0 +1,36 @@
+﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cabb634d-b974-4f29-acbe-7395bd8ed2f0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SF</ID>
+  <Name>SF</Name>
+  <CreatedTimestamp>2013-11-28T12:35:57.71Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:57.71Z</LastSchemaUpdate>
+  <Description>Usuarios que possuem acesso aos cubos.</Description>
+  <Members>
+    <Member>
+      <Name>REDE\d691297</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d655588</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d558649</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d540806</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d544650</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d739881</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d680180</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d568123</Name>
+    </Member>
+    <Member>
+      <Name>REDE\d544650</Name>
+    </Member>
+  </Members>
+</Role>

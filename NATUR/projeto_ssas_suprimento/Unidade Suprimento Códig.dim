@@ -1,0 +1,333 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="670b6e09-7d54-4052-aa08-d3af187bdd8d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Unidade Suprimento Códig</ID>
+  <Name>Unidade Suprimento Códig</Name>
+  <CreatedTimestamp>2013-11-28T12:35:58.243333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2013-11-28T12:35:58.243333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1819" scrolltop="-2963" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8334" y="10954" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dbo_v_unidade_suprimento" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4154" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003a10000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_unidade_suprimento" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1819</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2963</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="161">
+            <Shape Id="generated attribute 10" Expanded="false">
+              <Attributes>
+                <Attribute Id="generated attribute 10" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Seção Suprimento attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Seção Suprimento attribute 1" />
+              </Attributes>
+              <Position x="226" y="20" />
+            </Shape>
+            <Shape Id="Unidade Suprimento attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Unidade Suprimento attribute 1" />
+              </Attributes>
+              <Position x="432" y="20" />
+            </Shape>
+            <Shape Id="Órgao Suprimento attribute 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Órgao Suprimento attribute 1" />
+              </Attributes>
+              <Position x="638" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>1699-12-31T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="99d6a590-1064-4d29-bbea-eb1582ef0ce0">
+    <DataSourceViewID>DCPTLAB02 - DW_Suprimento</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Collation>Latin1_General_CI_AI</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="b935b9ef-037e-4db9-86b7-ce2216d1c096">
+      <ID>Seção Suprimento attribute 1</ID>
+      <Name>Seção Suprimento</Name>
+      <EstimatedCount>10462</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ead0c9d9-4a80-4526-b916-47ae22d6af0a">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80edadcb-95fb-41ed-a326-bbc7fc0c53ed">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e18b8e8e-dbda-406f-a879-f5065bc194f4">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d706c5e-4ee0-47eb-ae21-b2a0948956cf">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="001115df-7106-4a86-ab97-6c82146884c5">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26701c4e-c527-465b-937f-f3bb821d8dd7">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_divisao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="35ead6cb-b207-4e2c-bf0f-2a5da4c19bc8">
+          <DataType>WChar</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6353d25a-4240-4df3-83df-1ebcbac1f934">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_secao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="81fd0685-49fb-4c37-8d00-57c0aa0a39e5">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b20f188-965d-41d9-8104-c71d0b0960b3">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_dac_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="90f4a121-2a30-4389-96ad-eeebbfb30c67">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3bd71a61-281b-482e-803c-413600ef0ac9">
+          <TableID>dbo_v_unidade_suprimento</TableID>
+          <ColumnID>mn_secao_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9ec02eb1-4f71-4b43-8003-34ce59f63b02">
+          <AttributeID>Unidade Suprimento attribute 1</AttributeID>
+          <Name>Unidade Suprimento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b675e196-223a-48f0-88d6-aa7d6a1ae041">
+      <ID>Unidade Suprimento attribute 1</ID>
+      <Name>Unidade Suprimento</Name>
+      <EstimatedCount>192</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e81bdb36-c2f5-4041-9bc3-ba8e9c8a90ce">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71400a0f-0128-4615-bf1b-c4dc5965fecf">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8ec33445-07dc-4489-ac6f-9ecf78f29c41">
+          <DataType>WChar</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ae9677c-3bf3-4aac-b40b-cb5083c5525a">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="181ae9d3-6a29-4198-817c-e2c8bea7abaa">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1b1d856f-fe9d-4c0f-85b6-a230eb3616eb">
+          <TableID>dbo_v_unidade_suprimento</TableID>
+          <ColumnID>nm_unidade_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1defae8e-6c07-4ce4-9551-07569c07053a">
+          <AttributeID>Órgao Suprimento attribute 1</AttributeID>
+          <Name>Órgao Suprimento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b11a35fb-b46e-42a8-9a37-ec02c04837fc">
+      <ID>Órgao Suprimento attribute 1</ID>
+      <Name>Órgao Suprimento</Name>
+      <EstimatedCount>39</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec227289-9b55-4103-945b-4b303a2e250f">
+          <DataType>WChar</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffe291fd-099b-46b4-b811-464bbfc3a611">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="54ffd8ed-3ef7-40d8-95da-ed0eb1efa953">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d991865d-046f-4c7b-a9f0-920f8cf82a4a">
+          <TableID>dbo_v_unidade_suprimento</TableID>
+          <ColumnID>nm_orgao_formatado</ColumnID>
+        </Source>
+      </NameColumn>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99109cf6-1e8a-4402-846d-a07b425b2f65">
+      <ID>generated attribute 10</ID>
+      <Name>Código Unidade Suprimento</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1372abb4-5787-41fe-9bed-8829a74130f3">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d5879d7-fe3a-4f45-9ec7-fbcaf43de6d9">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_orgao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="be951817-e060-4fe9-9d3b-09bf2b17208c">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="431f1dc5-f122-4564-b0f0-8c75066c1725">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5fbcb72a-2210-4577-be4b-61e7778cba22">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d12cc03-d97a-4850-a6b6-5ee4d3eb6abd">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_divisao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5b699851-72a2-4277-aa00-90cec8037258">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="983d4726-055d-4e7f-9272-9129760cabc3">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_secao</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e7499d81-191f-485d-bfc2-230421266ee3">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3616e105-5bd7-496f-8a3d-87cd0b71a807">
+            <TableID>dbo_v_unidade_suprimento</TableID>
+            <ColumnID>cd_dac_unidade</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0c4cd691-474d-4f1e-9c77-d4d85299e151">
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9579f215-c07b-4ba1-8a8c-4615d39780cc">
+          <TableID>dbo_v_unidade_suprimento</TableID>
+          <ColumnID>cd_secao</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e51a6da5-53e1-415e-ade3-4f456d5aca63">
+          <AttributeID>Seção Suprimento attribute 1</AttributeID>
+          <Name>Seção Suprimento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Todas</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="ad306c1a-3867-49aa-9b52-776aaa04f8c4">
+      <ID>Unidade Suprimento Códig</ID>
+      <Name>Unidade Suprimento Códig</Name>
+      <AllMemberName>Todas</AllMemberName>
+      <AllowDuplicateNames>false</AllowDuplicateNames>
+      <Levels>
+        <Level dwd:design-time-name="028852e3-1ba1-47c6-a6a2-8ed99c561dbc">
+          <ID>Órgao Suprimento</ID>
+          <Name>Órgao Suprimento</Name>
+          <SourceAttributeID>Órgao Suprimento attribute 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="03a0380e-bcbd-49df-8ad1-d63f550a4992">
+          <ID>Unidade Suprimento</ID>
+          <Name>Unidade Suprimento</Name>
+          <SourceAttributeID>Unidade Suprimento attribute 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9fbfb1e0-3459-4511-ae39-2aff613b5e64">
+          <ID>Seção Suprimento</ID>
+          <Name>Seção Suprimento</Name>
+          <SourceAttributeID>Seção Suprimento attribute 1</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="76379146-5ada-4baf-8f7d-9368f30f8588">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="318ab7d6-0590-40cb-bb1c-f5cc55ec9528" />
+  </ProactiveCaching>
+</Dimension>
